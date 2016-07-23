@@ -18,11 +18,15 @@ Para esta versão, a seguinte coleção de linguagens foram escolhidas para sere
 - XML
 
 
-## Screenshot
+## Screenshots
 
 ** PHP **
-![](screenshot_php.png).
 
+![](screenshot_php.png).
+-
+
+
+-
 ** HTML **
 ![](screenshot_html.png).
 
