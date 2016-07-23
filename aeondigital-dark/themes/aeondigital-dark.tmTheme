@@ -328,7 +328,7 @@
 			<key>name</key>
 			<string>SGML DOCTYPE TagName</string>
 			<key>scope</key>
-			<string>entity.name.tag.doctype</string>
+			<string>entity.name.tag.doctype, entity.name.tag.doctype</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -343,7 +343,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EEEEEE</string>
+				<string>#999999</string>
 			</dict>
 		</dict>
 		<dict>
@@ -399,7 +399,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AD8855</string>
+				<string>#999999</string>
 			</dict>
 		</dict>
 		<dict>
@@ -410,7 +410,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C7AA77</string>
+				<string>#CCCCCC</string>
 			</dict>
 		</dict>
 		<dict>
