@@ -10,6 +10,7 @@ Esquema de cores desenvolvido para editores compatíveis com o padrão [TextMate
 ## Linguagens suportadas
 Para esta versão, a seguinte coleção de linguagens foram escolhidas para serem contempladas.
 
+
 - PHP
 - X/HTML
 - CSS
