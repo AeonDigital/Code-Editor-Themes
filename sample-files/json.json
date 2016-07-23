@@ -1,0 +1,12 @@
+{
+    /* Comment block */
+    "prop1" : "first value",
+    "prop2" : {
+        "bool" : true,
+        "integer" : 56,
+        "float" : 88.34,
+        "string" : "string"
+    },
+    // Comment line
+    "prop3" : null
+}

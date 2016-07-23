@@ -1123,11 +1123,78 @@
 			<key>name</key>
 			<string>JS Value String</string>
 			<key>scope</key>
-			<string>string source.js</string>
+			<string>string source.js, string.quoted.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#B88080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Comment</string>
+			<key>scope</key>
+			<string>meta.structure.json comment comment.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#666666</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Property Name</string>
+			<key>scope</key>
+			<string>meta.structure.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BBBBBB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Value String</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json string.quoted.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B88080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Value Numeric</string>
+			<key>scope</key>
+			<string>constant.numeric.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#947F7F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Constant</string>
+			<key>scope</key>
+			<string>constant.language.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6F77BB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Keyword - true&#x2f;false</string>
+			<key>scope</key>
+			<string>constant.language.boolean.true.json,
+			constant.language.boolean.false.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6F77BB</string>
 			</dict>
 		</dict>
 	</array>
