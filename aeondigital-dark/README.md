@@ -22,22 +22,36 @@ Para esta versão, a seguinte coleção de linguagens foram escolhidas para sere
 
 ** PHP **
 
-![](screenshot_php.png).
+![](screenshot_php.png)
 -
 
 
 -
 ** HTML **
-![](screenshot_html.png).
 
+![](screenshot_html.png)
+-
+
+
+-
 ** CSS **
-![](screenshot_css.png).
 
+![](screenshot_css.png)
+-
+
+
+-
 ** Javascript **
-![](screenshot_js.png).
 
+![](screenshot_js.png)
+-
+
+
+-
 ** XML **
-![](screenshot_xml.png).
+
+![](screenshot_xml.png)
+-
 
 
 
