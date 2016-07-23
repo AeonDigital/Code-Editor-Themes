@@ -1,11 +1,10 @@
 # Aeon Digital - Dark Theme
-Desenvolvido por [Aeon Digital](http://aeondigital.com.br)
 
-
-
+> Desenvolvido por [Aeon Digital](http://aeondigital.com.br)
+> 
+> Otimizado para Visual Studio Code versão 1.3.1.
 
 Esquema de cores desenvolvido para editores compatíveis com o padrão [TextMate themes](https://macromates.com) utilizando o [TmTheme Editor](http://tmtheme-editor.herokuapp.com)
-Foi otimizado para o Visual Studio Code versão 1.3.1.
 
 
 ## Linguagens suportadas
