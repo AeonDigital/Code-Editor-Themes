@@ -30,7 +30,7 @@ class ClassName extends InheritedClass {
     *
     * @return bool
     */
-    static function MethodName($one, $two) {
+    public function MethodName($one, $two) {
         require_once('phpscript.php');
         define('__ROOT__', dirname(dirname(__FILE__)));
 
@@ -66,12 +66,12 @@ class ClassName extends InheritedClass {
 
 
 
-    private function anotherFunction() {
+    public function anotherFunction() {
         return "1";
     }
 
 
-
+}
 ?>
 
 
