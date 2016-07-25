@@ -64,6 +64,19 @@ Para esta versão, a seguinte coleção de linguagens foram escolhidas para sere
 
 
 
+## Instalação
+Copie toda a pasta "aeondigital-dark" para o local indicado conforme seu S/O:
+
+- Linux [~/.vscode/extensions]
+- Mac [~/.vscode/extensions]
+- Windows [%USERPROFILE%\.vscode\extensions]
+
+Reinicie o Visual Studio Code e depois selecione o novo Tema em:
+
+    File -> Preferences -> Color Theme -> "Aeon Digital Dark"
+
+
+
 ## Ajustes para VS Code
 Até a versão atual (1.3.1) por algum motivo desconhecido, o esquema de cores definido para X/HTML não é corretamente carregado pelo VS Code e alguns estilos só serão observados corretamente efetuando a seguinte alteração em seu arquivo de configurações pessoais:
 
