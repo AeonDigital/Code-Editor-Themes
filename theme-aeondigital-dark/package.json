@@ -1,0 +1,23 @@
+{
+    "name": "theme-aeondigital-dark",
+    "displayName": "Aeon Digital Dark",
+    "description": "Dark Theme by Aeon Digital",
+    "icon" : "aeondigital_icon.png",
+    "version": "0.0.2",
+    "publisher": "Aeon-Digital",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Aeon Digital Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/aeondigital-dark.tmTheme"
+            }
+        ]
+    }
+}
