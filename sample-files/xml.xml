@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configuration>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<configuration
+    nsf:h="http://www.w3.org/TR/html4/"
+    nss:f="https://www.w3schools.com/furniture">
+
     <appSettings />
     <connectionStrings />
+
+    <h:connectionStrings prop="content">
+        Text Sample
+    </h:connectionStrings>
 
     <!--
         Comment block
     -->
     <system.webServer>
         <rewrite>
+            <description>
+                <![CDATA[ 
+                    html/xml cdata section 
+                ]]>
+            </description>
+            <description>
+                Normal Textual Content
+            </description>
             <rules>
                 <clear />
 

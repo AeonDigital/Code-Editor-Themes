@@ -2,9 +2,9 @@
 
 > Desenvolvido por [Aeon Digital](http://aeondigital.com.br)
 > 
-> Otimizado para Visual Studio Code versão 1.3.1.
+> Otimizado para Visual Studio Code versão 1.12.1.
 
-Esquema de cores desenvolvido para editores compatíveis com o padrão [TextMate themes](https://macromates.com) utilizando o [TmTheme Editor](http://tmtheme-editor.herokuapp.com)
+Esquema de cores desenvolvido para editores compatíveis com o padrão [TextMate themes](https://macromates.com) utilizando a ferramenta Inspect TM Scope incorporado no próprio VSCode.
 
 
 ## Linguagens suportadas
@@ -16,50 +16,66 @@ Para esta versão, a seguinte coleção de linguagens foram escolhidas para sere
 - CSS
 - Javascript
 - JSON
+- SQL
 - XML
+- MARKDONW
 
 
 
 ## Screenshots
 
-** PHP **
+**PHP**
 
 ![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_php.png)
 -
 
 
 -
-** HTML **
+**X/HTML**
 
 ![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_html.png)
 -
 
 
 -
-** CSS **
+**CSS**
 
 ![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_css.png)
 -
 
 
 -
-** Javascript **
+**Javascript**
 
 ![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_js.png)
 -
 
 
 -
-** JSON **
+**JSON**
 
 ![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_json.png)
 -
 
 
 -
-** XML **
+**SQL**
+
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_sql.png)
+-
+
+
+-
+**XML**
 
 ![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_xml.png)
+-
+
+
+-
+**MARKDOWN**
+
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_md.png)
 -
 
 
@@ -77,25 +93,9 @@ Reinicie o Visual Studio Code e depois selecione o novo Tema em:
 
 
 
-## Ajustes para VS Code
-Até a versão atual (1.3.1) por algum motivo desconhecido, o esquema de cores definido para X/HTML não é corretamente carregado pelo VS Code e alguns estilos só serão observados corretamente efetuando a seguinte alteração em seu arquivo de configurações pessoais:
-
-    Menu:
-    File -> Preferences -> User Settings
-
-    // Adicione as seguintes chaves em "files.associations":
-    "files.associations": {
-        "*.html" : "php",
-        "*.htm" : "php"
-    },
-
-
-
-## Bugs conhecidos
-Mais estranho que a necessidade do ajuste indicado acima é que o estilo "JS Value String" que define a cor de strings cercadas por aspas simples e duplas em contexto de código Javascript funcionará APENAS em arquivos .html, .htm, .php e .phtml.
-Segue abaixo um screenshot do mesmo trecho de código mostrado acima para Javascript mas aberto em um arquivo ".js". Por algum acaso, justo para arquivos ".js" o estilo dos textos não pega.
-
-![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_bug_01.png)
+## Correções 
+Na versão anterior deste projeto foi verificado que o VSCode não estava implementando corretamente os escopos referentes ao X/HTML quando este possuia código JavaScript ou CSS incorporados diretamente.
+A partir da incorporação do Inspect TM Scope e demais correções referentes ao sistema de escopos do VSCode foi possível corrigir a visualização esperada assim como agregar alguns detalhes que antes não era possível.
 
 
 

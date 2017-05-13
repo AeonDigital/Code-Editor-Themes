@@ -37,9 +37,7 @@ class ClassName extends InheritedClass {
         $routes = array();
         $var_number = 10;
         $var_bool = true;
-        $var_date = new DateTime();
         $var_instance = new AnotherClass();
-        $var_instance = new ClassName();
 
         // Assoc Array
         $routes["Key"] = array(
@@ -72,20 +70,4 @@ class ClassName extends InheritedClass {
 
 
 }
-?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php echo ""; ?>
