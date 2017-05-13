@@ -1435,6 +1435,7 @@
 			<string>JSON Comment Block Open/Close</string>
 			<key>scope</key>
 			<string>
+				comment.block.json punctuation.definition.comment.json,
 				comment.block.documentation.json punctuation.definition.comment.json
 			</string>
 			<key>settings</key>
@@ -1448,6 +1449,7 @@
 			<string>JSON Comment Block Content</string>
 			<key>scope</key>
 			<string>
+				meta.structure.dictionary.json comment.block.json,
 				meta.structure.dictionary.json comment.block.documentation.json
 			</string>
 			<key>settings</key>
