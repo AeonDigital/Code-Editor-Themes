@@ -1796,10 +1796,49 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP Keyword - interface</string>
+			<key>scope</key>
+			<string>
+				storage.type.interface.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6586A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - abstract</string>
+			<key>scope</key>
+			<string>
+				storage.modifier.abstract.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6586A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP Keyword - extends</string>
 			<key>scope</key>
 			<string>
 				storage.modifier.extends.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6586A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - implements</string>
+			<key>scope</key>
+			<string>
+				storage.modifier.implements.php
 			</string>
 			<key>settings</key>
 			<dict>
