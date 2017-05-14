@@ -1677,6 +1677,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP Storage Type</string>
+			<key>scope</key>
+			<string>
+				storage.type.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6586A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP Variable Modifier</string>
 			<key>scope</key>
 			<string>
@@ -1792,6 +1805,20 @@
 			<dict>
 				<key>foreground</key>
 				<string>#AAAAAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Function Argument Type</string>
+			<key>scope</key>
+			<string>
+				meta.function.arguments.php meta.function.argument.typehinted.php support.class.php,
+				meta.function.arguments.php meta.function.argument.array.php storage.type.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999</string>
 			</dict>
 		</dict>
 		<dict>
