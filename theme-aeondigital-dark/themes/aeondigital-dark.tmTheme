@@ -995,7 +995,8 @@
 			<string>Javascript Comment Line Content</string>
 			<key>scope</key>
 			<string>
-				comment.line.double-slash.js
+				comment.line.double-slash.js,
+				comment.line.double-slash.tsx
 			</string>
 			<key>settings</key>
 			<dict>
