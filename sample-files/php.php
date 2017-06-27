@@ -54,6 +54,15 @@ class ClassName extends InheritedClass {
 
         BT::RetrieveHTTPInformation($__DomainConfig["DefaultApplication"]);
 
+        try {
+
+        }
+        catch (\Exception $e) {
+
+        }
+        finally {
+            
+        }
 
         if(1 == 1 and 2 != 3) { 
             $var_number++;

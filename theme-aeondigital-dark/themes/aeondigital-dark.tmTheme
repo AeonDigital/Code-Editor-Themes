@@ -1770,6 +1770,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP Keyword - try, catch, finnaly</string>
+			<key>scope</key>
+			<string>
+				keyword.control.exception.php,
+				keyword.control.exception.catch.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6586A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP Function - Call</string>
 			<key>scope</key>
 			<string>
