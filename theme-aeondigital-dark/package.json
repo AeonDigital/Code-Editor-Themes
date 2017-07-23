@@ -3,7 +3,7 @@
     "displayName": "Aeon Digital Dark",
     "description": "Dark Theme by Aeon Digital",
     "icon" : "aeondigital_icon.png",
-    "version": "0.9.5",
+    "version": "0.9.6",
     "publisher": "Aeon-Digital",
     "engines": {
         "vscode": "^1.0.0"

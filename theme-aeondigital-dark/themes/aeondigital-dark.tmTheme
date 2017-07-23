@@ -1076,7 +1076,8 @@
 			<string>Javascript Keyword - Function</string>
 			<key>scope</key>
 			<string>
-				meta.function.expression.js storage.type.function.js
+				meta.function.expression.js storage.type.function.js,
+				meta.function.js storage.type.function.js
 			</string>
 			<key>settings</key>
 			<dict>
