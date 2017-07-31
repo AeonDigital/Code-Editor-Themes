@@ -1891,6 +1891,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP Keyword - final</string>
+			<key>scope</key>
+			<string>
+				storage.modifier.final.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6586A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP Keyword - function</string>
 			<key>scope</key>
 			<string>
