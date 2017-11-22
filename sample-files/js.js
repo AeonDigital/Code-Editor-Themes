@@ -53,6 +53,10 @@ var nClass = function(par1, par2) {
         c++;
     }
 
+    if (1 === 2) {
+    } else if (2 === 3) { }
+    else {}
+
 
     for(var i=0; i<vArray.length; i++) {
         c++;

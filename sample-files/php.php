@@ -15,6 +15,8 @@ const AEON_CONSTANT = "Aeon Digital";
 
 
 
+
+
 /**
 * Class Description
 */
@@ -30,11 +32,13 @@ class ClassName extends InheritedClass {
     *
     * @return bool
     */
-    public function MethodName($one, $two) {
+    public function MethodName(string $one, $two = "two") : bool
+    {
         require_once('phpscript.php');
         define('__ROOT__', dirname(dirname(__FILE__)));
 
         $routes = array();
+        $var_string = "value";
         $var_number = 10;
         $var_bool = true;
         $var_instance = new AnotherClass();
@@ -43,29 +47,39 @@ class ClassName extends InheritedClass {
         $routes["Key"] = array(
             "keyName_1"       => "value_1",
             "keyName_2"       => "value_2",
-            "keyName_3"       => "value_3",
-            "keyName_4"       => "value_4",
-            "keyName_5"       => "value_5"
         );
 
         $this->ExecuteMethod($one, "another arg", 10);
         $innerHTML = "<body class=\"use-\"" . $var_str . "\"class\">{$var_str}</body>";
 
-
         BT::RetrieveHTTPInformation($__DomainConfig["DefaultApplication"]);
 
         try {
-
+            clone $var_instance;
+            switch ($var_string) {
+                case "val1":
+                    break;
+                case "val2":
+                    break;
+            }
         }
         catch (\Exception $e) {
+            foreach($routes as $k => $v) {
 
+            }
         }
         finally {
-            
+            for($i = 0; $i < count($routes); $i++) {
+                
+            }
         }
 
-        if(1 == 1 and 2 != 3) { 
+        if (1 == 1 and 2 != 3) { 
             $var_number++;
+        } elseif (33 === 44) {
+            // bla
+        } else {
+            // nha!
         }
 
         return $one;

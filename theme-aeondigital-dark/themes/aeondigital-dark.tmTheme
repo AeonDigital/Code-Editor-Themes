@@ -1771,7 +1771,137 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP Keyword - try, catch, finnaly</string>
+			<string>PHP Keyword - return</string>
+			<key>scope</key>
+			<string>
+				keyword.control.return.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6586A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - clone</string>
+			<key>scope</key>
+			<string>
+				keyword.other.clone.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - for</string>
+			<key>scope</key>
+			<string>
+				keyword.control.for.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - foreach</string>
+			<key>scope</key>
+			<string>
+				keyword.control.foreach.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - switch</string>
+			<key>scope</key>
+			<string>
+				keyword.control.switch.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - case</string>
+			<key>scope</key>
+			<string>
+				keyword.control.case.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - break</string>
+			<key>scope</key>
+			<string>
+				keyword.control.break.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - if</string>
+			<key>scope</key>
+			<string>
+				keyword.control.if.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - else</string>
+			<key>scope</key>
+			<string>
+				keyword.control.else.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - elseif</string>
+			<key>scope</key>
+			<string>
+				keyword.control.elseif.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - try, catch, finally</string>
 			<key>scope</key>
 			<string>
 				keyword.control.exception.php,
@@ -2029,7 +2159,7 @@
 			<string>PHP Value Numeric</string>
 			<key>scope</key>
 			<string>
-				constant.numeric.php
+				constant.numeric.decimal.php
 			</string>
 			<key>settings</key>
 			<dict>
@@ -2146,8 +2276,8 @@
 			<string>PHP Quoted Value</string>
 			<key>scope</key>
 			<string>
-				string.quoted.double.php meta.string-contents.quoted.double.php,
-				string.quoted.single.php meta.string-contents.quoted.single.php
+				string.quoted.double.php,
+				string.quoted.single.php
 			</string>
 			<key>settings</key>
 			<dict>
@@ -2160,8 +2290,10 @@
 			<string>PHP Quoted Variable Value</string>
 			<key>scope</key>
 			<string>
-				string.quoted.double.php meta.string-contents.quoted.double.php variable.other.php,
-				string.quoted.single.php meta.string-contents.quoted.single.php variable.other.php
+				string.quoted.double.php variable.other.php,
+				string.quoted.single.php variable.other.php,
+				string.quoted.double.php punctuation.definition.variable.php,
+				string.quoted.single.php punctuation.definition.variable.php
 			</string>
 			<key>settings</key>
 			<dict>
