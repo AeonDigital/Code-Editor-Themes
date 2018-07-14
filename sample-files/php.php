@@ -82,6 +82,15 @@ class ClassName extends InheritedClass {
             // nha!
         }
 
+
+        while (1 === 2) {
+            // nheco
+        }
+
+        do {
+            // bla!
+        } while (2 === 1);
+
         return $one;
     }
 
@@ -94,3 +103,7 @@ class ClassName extends InheritedClass {
 
 }
 
+
+trait traitName {
+    // Trait content
+}

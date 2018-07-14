@@ -1745,6 +1745,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP Keyword - trait</string>
+			<key>scope</key>
+			<string>
+				storage.type.trait.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6586A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP Keyword - class</string>
 			<key>scope</key>
 			<string>
@@ -1853,6 +1866,32 @@
 			<key>scope</key>
 			<string>
 				keyword.control.break.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - while</string>
+			<key>scope</key>
+			<string>
+				keyword.control.while.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keyword - do</string>
+			<key>scope</key>
+			<string>
+				keyword.control.do.php
 			</string>
 			<key>settings</key>
 			<dict>
