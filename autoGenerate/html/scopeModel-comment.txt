@@ -1,0 +1,26 @@
+<dict>
+    <key>name</key>
+    <string>HTML Comment | Open/Close Punctuaction</string>
+    <key>scope</key>
+    <string>
+        punctuation.definition.comment.html
+    </string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>[[punctuaction]]</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>HTML Comment | Content</string>
+    <key>scope</key>
+    <string>
+        comment.block.html
+    </string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>[[content]]</string>
+    </dict>
+</dict>

@@ -1,0 +1,13 @@
+<dict>
+    <key>name</key>
+    <string>HTML Text</string>
+    <key>scope</key>
+    <string>
+        text.html.basic
+    </string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>[[content]]</string>
+    </dict>
+</dict>

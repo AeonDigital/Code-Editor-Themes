@@ -2,7 +2,7 @@
 
 > Desenvolvido por [Aeon Digital](http://aeondigital.com.br)
 > 
-> Otimizado para Visual Studio Code versão 1.12.1.
+> Otimizado para Visual Studio Code versão 1.26.1.
 
 Esquema de cores desenvolvido para editores compatíveis com o padrão [TextMate themes](https://macromates.com) utilizando a ferramenta Inspect TM Scope incorporado no próprio VSCode.
 
@@ -33,7 +33,12 @@ Para esta versão, a seguinte coleção de linguagens foram escolhidas para sere
 -
 **X/HTML**
 
-![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_html.png)
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_html_01.png)
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_html_02.png)
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_html_03.png)
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_html_04.png)
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_html_05.png)
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_html_06.png)
 -
 
 
@@ -94,8 +99,7 @@ Reinicie o Visual Studio Code e depois selecione o novo Tema em:
 
 
 ## Correções 
-Na versão anterior deste projeto foi verificado que o VSCode não estava implementando corretamente os escopos referentes ao X/HTML quando este possuia código JavaScript ou CSS incorporados diretamente.
-A partir da incorporação do Inspect TM Scope e demais correções referentes ao sistema de escopos do VSCode foi possível corrigir a visualização esperada assim como agregar alguns detalhes que antes não era possível.
+A partir da última atualização do VSCode, mais uma vez, o esquema de escopos que determina quando um simbolo é atinjido por uma configuração de cores foi alterado para a linguagem HTML. A parte ruim foi que quase todas as definições da versão anterior ficaram inertes, a parte boa foi que agora é possível ter um controle muito preciso do que exatamente ganhará uma determinada cor permitindo criar uma paleta mais rica e harmoniosa.
 
 
 

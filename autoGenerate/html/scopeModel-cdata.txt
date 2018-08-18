@@ -1,0 +1,27 @@
+<dict>
+    <key>name</key>
+    <string>HTML CDATA | Open/Close Punctuaction</string>
+    <key>scope</key>
+    <string>
+        meta.tag.metadata.cdata.html punctuation.definition.tag.begin.html,
+        meta.tag.metadata.cdata.html punctuation.definition.tag.end.html
+    </string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>[[punctuaction]]</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>HTML CDATA | Content</string>
+    <key>scope</key>
+    <string>
+        meta.tag.metadata.cdata.html string.other.inline-data.html
+    </string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>[[content]]</string>
+    </dict>
+</dict>
