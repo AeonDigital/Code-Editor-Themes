@@ -4029,6 +4029,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP Keyword - default</string>
+			<key>scope</key>
+			<string>
+				keyword.control.default.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP Keyword - break</string>
 			<key>scope</key>
 			<string>
