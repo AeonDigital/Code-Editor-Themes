@@ -10,7 +10,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#252525</string>
+				<string>#111111</string>
 				<key>caret</key>
 				<string>#E4FDFF</string>
 				<key>foreground</key>
@@ -23,9 +23,9 @@
 				<string>#45546E</string>
 			</dict>
 		</dict>
-		<!-- 
+		<!--
 			START
-			XML FILES SCOPE STYLES 
+			XML FILES SCOPE STYLES
 		-->
 		<dict>
 			<key>name</key>
@@ -156,7 +156,7 @@
 			<string>XML Attribute Name</string>
 			<key>scope</key>
 			<string>
-				entity.other.attribute-name.xml, 
+				entity.other.attribute-name.xml,
 				entity.other.attribute-name.localname.xml
 			</string>
 			<key>settings</key>
@@ -193,18 +193,18 @@
 				<string>#BBBBBB</string>
 			</dict>
 		</dict>
-		<!-- 
+		<!--
 			END
-			XML FILES SCOPE STYLES 
+			XML FILES SCOPE STYLES
 		-->
 
 
 
 
 
-		<!-- 
+		<!--
 			START
-			HTML FILES SCOPE STYLES 
+			HTML FILES SCOPE STYLES
 		-->
         <dict>
             <key>name</key>
@@ -2731,18 +2731,18 @@
                 <string>#D6EAB9</string>
             </dict>
         </dict>
-		<!-- 
+		<!--
 			END
-			HTML FILES SCOPE STYLES 
+			HTML FILES SCOPE STYLES
 		-->
 
 
 
 
 
-		<!-- 
+		<!--
 			START
-			CSS FILES SCOPE STYLES 
+			CSS FILES SCOPE STYLES
 		-->
 		<dict>
 			<key>name</key>
@@ -2948,7 +2948,7 @@
 			<string>CSS Property Name</string>
 			<key>scope</key>
 			<string>
-				meta.property-name.css, 
+				meta.property-name.css,
 				support.type.property-name.css
 			</string>
 			<key>settings</key>
@@ -3001,7 +3001,7 @@
 			<string>CSS Value Quotes</string>
 			<key>scope</key>
 			<string>
-				punctuation.definition.string.begin.css, 
+				punctuation.definition.string.begin.css,
 				punctuation.definition.string.end.css
 			</string>
 			<key>settings</key>
@@ -3015,7 +3015,7 @@
 			<string>CSS Value Quoted</string>
 			<key>scope</key>
 			<string>
-				string.quoted.double.css, 
+				string.quoted.double.css,
 				string.quoted.single.css
 			</string>
 			<key>settings</key>
@@ -3131,18 +3131,18 @@
 				<string>italic</string>
 			</dict>
 		</dict>
-		<!-- 
+		<!--
 			END
-			CSS FILES SCOPE STYLES 
+			CSS FILES SCOPE STYLES
 		-->
 
 
 
 
 
-		<!-- 
+		<!--
 			START
-			JAVASCRIPT FILES SCOPE STYLES 
+			JAVASCRIPT FILES SCOPE STYLES
 		-->
 		<dict>
 			<key>name</key>
@@ -3254,10 +3254,49 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Javascript Keyword - class</string>
+			<key>scope</key>
+			<string>
+				storage.type.class.js
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6586A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Javascript Keyword - new</string>
 			<key>scope</key>
 			<string>
 				keyword.operator.new.js
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6F77BB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript Keyword - try, catch, finally</string>
+			<key>scope</key>
+			<string>
+				keyword.control.trycatch.js
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6586A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript Keyword - get|set</string>
+			<key>scope</key>
+			<string>
+				storage.type.property.js
 			</string>
 			<key>settings</key>
 			<dict>
@@ -3362,6 +3401,7 @@
 			<string>Javascript Keyword Conditional</string>
 			<key>scope</key>
 			<string>
+				keyword.control.conditional.js,
 				meta.block.js keyword.control.conditional.js
 			</string>
 			<key>settings</key>
@@ -3375,7 +3415,8 @@
 			<string>Javascript Keyword Loop Control</string>
 			<key>scope</key>
 			<string>
-				meta.block.js keyword.control.loop.js
+				meta.block.js keyword.control.loop.js,
+				keyword.control.loop.js
 			</string>
 			<key>settings</key>
 			<dict>
@@ -3573,31 +3614,18 @@
 				<string>#BBBBBB</string>
 			</dict>
 		</dict>
-		<!--dict>
-			<key>name</key>
-			<string>Javascript General</string>
-			<key>scope</key>
-			<string>
-				source.js
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#BBBBBB</string>
-			</dict>
-		</dict-->
-		<!-- 
+		<!--
 			END
-			JAVASCRIPI FILES SCOPE STYLES 
+			JAVASCRIPI FILES SCOPE STYLES
 		-->
 
 
 
 
 
-		<!-- 
+		<!--
 			START
-			JSON FILES SCOPE STYLES 
+			JSON FILES SCOPE STYLES
 		-->
 		<dict>
 			<key>name</key>
@@ -3750,18 +3778,18 @@
 				<string>#BBBBBB</string>
 			</dict>
 		</dict>
-		<!-- 
+		<!--
 			END
-			JSON FILES SCOPE STYLES 
+			JSON FILES SCOPE STYLES
 		-->
 
 
 
 
 
-		<!-- 
+		<!--
 			START
-			PHP FILES SCOPE STYLES 
+			PHP FILES SCOPE STYLES
 		-->
 		<dict>
 			<key>name</key>
@@ -4534,18 +4562,18 @@
 				<string>#AFB5D1</string>
 			</dict>
 		</dict>
-		<!-- 
+		<!--
 			END
-			PHP FILES SCOPE STYLES 
+			PHP FILES SCOPE STYLES
 		-->
 
 
 
 
 
-		<!-- 
+		<!--
 			START
-			SQL FILES SCOPE STYLES 
+			SQL FILES SCOPE STYLES
 		-->
 		<dict>
 			<key>name</key>
@@ -4720,18 +4748,18 @@
 				<string>#BBBBBB</string>
 			</dict>
 		</dict>
-		<!-- 
+		<!--
 			END
-			SQL FILES SCOPE STYLES 
+			SQL FILES SCOPE STYLES
 		-->
 
 
 
 
 
-		<!-- 
+		<!--
 			START
-			MARKDOWN FILES SCOPE STYLES  
+			MARKDOWN FILES SCOPE STYLES
 		-->
 		<dict>
 			<key>name</key>
@@ -5092,9 +5120,9 @@
 				<string>#AAAAAA</string>
 			</dict>
 		</dict>
-		<!-- 
+		<!--
 			END
-			MARKDOWN FILES SCOPE STYLES 
+			MARKDOWN FILES SCOPE STYLES
 		-->
 	</array>
 	<key>colorSpaceName</key>
