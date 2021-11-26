@@ -1,14 +1,15 @@
 # Aeon Digital - Dark Theme
 
 > Desenvolvido por [Aeon Digital](http://aeondigital.com.br)
-> 
-> Otimizado para Visual Studio Code versão 1.26.1.
+>
+> Otimizado para Visual Studio Code versão 1.62.0.
 
-Esquema de cores desenvolvido para editores compatíveis com o padrão [TextMate themes](https://macromates.com) utilizando a ferramenta Inspect TM Scope incorporado no próprio VSCode.
+Esquema de cores para o VSCode.
+Criado usando a ferramenta 'yoman'.
 
 
 ## Linguagens suportadas
-Para esta versão, a seguinte coleção de linguagens foram escolhidas para serem contempladas.
+Para esta versão, a seguinte coleção de marcações foram escolhidas para serem contempladas.
 
 
 - PHP
@@ -19,6 +20,9 @@ Para esta versão, a seguinte coleção de linguagens foram escolhidas para sere
 - SQL
 - XML
 - MARKDONW
+- MAKEFILE
+- DOCKERFILE
+- DOCKERCOMPOSE
 
 
 
@@ -84,25 +88,22 @@ Para esta versão, a seguinte coleção de linguagens foram escolhidas para sere
 -
 
 
+-
+**MAKEFILE**
 
-## Instalação
-Copie toda a pasta "theme-aeondigital-dark" para o local indicado conforme seu S/O:
-
-- Linux [~/.vscode/extensions]
-- Mac [~/.vscode/extensions]
-- Windows [%USERPROFILE%\.vscode\extensions]
-
-Reinicie o Visual Studio Code e depois selecione o novo Tema em:
-
-    File -> Preferences -> Color Theme -> "Aeon Digital Dark"
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_makefile.png)
+-
 
 
+-
+**DOCKERFILE**
 
-## Correções 
-A partir da última atualização do VSCode, mais uma vez, o esquema de escopos que determina quando um simbolo é atinjido por uma configuração de cores foi alterado para a linguagem HTML. A parte ruim foi que quase todas as definições da versão anterior ficaram inertes, a parte boa foi que agora é possível ter um controle muito preciso do que exatamente ganhará uma determinada cor permitindo criar uma paleta mais rica e harmoniosa.
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_dockerfile.png)
+-
 
 
+-
+**DOCKERCOMPOSE**
 
-
-
-________________________________________________________________________________
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_dockercompose.png)
+-

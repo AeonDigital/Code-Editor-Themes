@@ -19,8 +19,8 @@ $genericMarkup = [
     "attributeValue"        => "string.quoted.double.html",
 ];
 $emptyTags = [
-    "area", "base", "basefont", "br", "col", "embed", 
-    "frame", "hr", "img", "input", "link", "meta", 
+    "area", "base", "basefont", "br", "col", "embed",
+    "frame", "hr", "img", "input", "link", "meta",
     "param", "source", "track", "wbr"
 ];
 $htmlTags = [
@@ -31,7 +31,7 @@ $htmlTags = [
     "body"              => "meta.tag.structure.body",
     "button"            => "meta.tag.structure.button",
     "caption"           => "meta.tag.structure.caption",
-    "center"            =>"meta.tag.structure.center",
+    "center"            => "meta.tag.structure.center",
     "col"               => "meta.tag.structure.col",
     "colgroup"          => "meta.tag.structure.colgroup",
     "datalist"          => "meta.tag.structure.datalist",
@@ -71,7 +71,7 @@ $htmlTags = [
     "ol"                => "meta.tag.structure.ol",
     "output"            => "meta.tag.structure.output",
     "p"                 => "meta.tag.structure.p",
-    "pre"               => "meta.tag.structure.pre",          
+    "pre"               => "meta.tag.structure.pre",
     "progress"          => "meta.tag.structure.progress",
     "section"           => "meta.tag.structure.section",
     "select"            => "meta.tag.structure.select",

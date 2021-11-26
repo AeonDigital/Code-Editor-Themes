@@ -7,19 +7,13 @@ Code Editor - Themes
 > rianna@aeondigital.com.br
 
 
-Coleção de temas para editores de código compativeis com o padrão [TextMate themes](https://macromates.com).
-Os itens desta coleção estão otimizados para serem utilizados com o Visual Studio Code (versão 1.26.1.).
+Temas de cores para o VSCode.
 
 
 
 
 
-
-
-
-
-
-________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________
 
 
 

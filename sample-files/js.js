@@ -34,16 +34,16 @@ var nClass = function(par1, par2) {
 
 
     switch(json.aprop) {
-        case '0' : 
-            alert('here - 0'); 
+        case '0' :
+            alert('here - 0');
             break;
 
-        case '1' : 
-            alert('here - 1'); 
+        case '1' :
+            alert('here - 1');
             break;
 
-        default : 
-            alert('default'); 
+        default :
+            alert('default');
             break;
     }
 

@@ -22,13 +22,13 @@ const AEON_CONSTANT = "Aeon Digital";
 */
 class ClassName extends InheritedClass {
 
-
+    public int $setInteger = 0;
 
     /**
     * Method Description
     *
     * @param string    $one                Parameter $one
-    * @param string    [$two = "two"]      Parameter $two 
+    * @param string    [$two = "two"]      Parameter $two
     *
     * @return bool
     */
@@ -54,6 +54,11 @@ class ClassName extends InheritedClass {
 
         BT::RetrieveHTTPInformation($__DomainConfig["DefaultApplication"]);
 
+        $strSQL = "SELECT * FROM Teste WHERE column=$teste";
+        $strSQL = "UPDATE Teste SET column='333' WHERE id=3";
+        $strSQL = "DELETE FROM Teste WHERE id=3";
+        $strSQL = "SHOW TABLES;";
+
         try {
             clone $var_instance;
             switch ($var_string) {
@@ -70,11 +75,11 @@ class ClassName extends InheritedClass {
         }
         finally {
             for($i = 0; $i < count($routes); $i++) {
-                
+
             }
         }
 
-        if (1 == 1 and 2 != 3) { 
+        if (1 == 1 and 2 != 3) {
             $var_number++;
         } elseif (33 === 44) {
             // bla
