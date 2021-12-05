@@ -1,0 +1,62 @@
+{
+    "name": "Aeon Digital Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111",
+        "editor.lineHighlightBackground": "#222222",
+        "editor.selectionBackground": "#333333",
+        "editor.foreground": "#CCCCCC",
+        "editorCursor.foreground": "#AAAAAA",
+        "editorWhitespace.foreground": "#888888",
+        "editorIndentGuide.background": "#333333",
+        "editorIndentGuide.activeBackground": "#333333"
+    },
+    "tokenColors": [
+        {
+            "name": "Docker-Compose :: Comment Line Hash",
+            "scope": [
+                "punctuation.definition.comment.yaml"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "Docker-Compose :: Comment Line Content",
+            "scope": [
+                "comment.line.number-sign.yaml"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "Docker-Compose :: Property",
+            "scope": [
+                "entity.name.tag.yaml"
+            ],
+            "settings": {
+                "foreground": "#D66787"
+            }
+        },
+        {
+            "name": "Docker-Compose :: Value",
+            "scope": [
+                "string.quoted.single.yaml",
+                "string.unquoted.plain.out.yaml"
+            ],
+            "settings": {
+                "foreground": "#A9A9A9"
+            }
+        },
+        {
+            "name": "Docker-Compose :: Ponctuaction Block Sequence",
+            "scope": [
+                "punctuation.definition.block.sequence.item.yaml"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        }
+    ]
+}

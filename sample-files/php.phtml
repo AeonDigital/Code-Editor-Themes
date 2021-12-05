@@ -2,8 +2,6 @@
 /**
 * @package      Aeon Digital Theme
 * @author       Author Rianna Cantarelli
-*
-* @module       Module Aeon
 */
 namespace Loja\Controllers;
 
@@ -15,51 +13,92 @@ const AEON_CONSTANT = "Aeon Digital";
 
 
 
+
+
 /**
 * Class Description
 */
-class ClassName extends InheritedClass {
+abstract class ClassName extends InheritedClass implements iInterface {
 
-
+    public int $setInteger = 5;
 
     /**
     * Method Description
     *
     * @param string    $one                Parameter $one
-    * @param string    [$two = "two"]      Parameter $two 
+    * @param string    [$two = "two"]      Parameter $two
     *
     * @return bool
     */
-    public function MethodName($one, $two) {
+    public function MethodName(string $one, $two = "two") : bool
+    {
         require_once('phpscript.php');
+        include("teste");
         define('__ROOT__', dirname(dirname(__FILE__)));
 
         $routes = array();
+        $var_string = "value";
         $var_number = 10;
         $var_bool = true;
-        $var_date = new DateTime();
-        $var_instance = new AnotherClass();
-        $var_instance = new ClassName();
+        $var_instance = new \Teste\AnotherClass();
+        $dt = new \DateTime();
+
+        $var_cast = (int)"32";
+        $pos = strpos($var_string);
 
         // Assoc Array
-        $routes["Key"] = array(
+        $routes["Key"] = [
             "keyName_1"       => "value_1",
             "keyName_2"       => "value_2",
-            "keyName_3"       => "value_3",
-            "keyName_4"       => "value_4",
-            "keyName_5"       => "value_5"
-        );
+        ];
 
         $this->ExecuteMethod($one, "another arg", 10);
-        $innerHTML = "<body class=\"use-\"" . $var_str . "\"class\">{$var_str}</body>";
-
+        $innerHTML = "<body class=\"use-\"" . $var_str . "\"class\">${var_str}</body>";
 
         BT::RetrieveHTTPInformation($__DomainConfig["DefaultApplication"]);
 
+        $strSQL = "SELECT * FROM Teste WHERE column=$teste";
+        $strSQL = "UPDATE Teste SET column='333' WHERE id=3";
+        $strSQL = "DELETE FROM Teste WHERE id=3";
+        $strSQL = "SHOW TABLES;";
 
-        if(1 == 1 and 2 != 3) { 
-            $var_number++;
+        try {
+            clone $var_instance;
+            switch ($var_string) {
+                case "val1":
+                    break;
+                case "val2":
+                    break;
+            }
         }
+        catch (\Exception $e) {
+            foreach($routes as $k => $v) {
+
+            }
+        }
+        finally {
+            for ($i = 0; $i < count($routes); $i++) {
+
+            }
+        }
+
+        if (1 == 1 and 2 != 3) {
+            $var_number++;
+        } elseif (33 === 44) {
+            // bla
+        } else {
+            // nha!
+        }
+
+
+
+        while (1 === 2) {
+            // nheco
+        }
+
+        do {
+            // bla!
+        } while (2 === 1);
 
         return $one;
     }
@@ -73,9 +112,7 @@ class ClassName extends InheritedClass {
 
 }
 ?>
-
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="pt-br" xml:lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8" />
@@ -173,16 +210,16 @@ class ClassName extends InheritedClass {
 
 
                 switch(json.aprop) {
-                    case '0' : 
-                        alert('here - 0'); 
+                    case '0' :
+                        alert('here - 0');
                         break;
 
-                    case '1' : 
-                        alert('here - 1'); 
+                    case '1' :
+                        alert('here - 1');
                         break;
 
-                    default : 
-                        alert('default'); 
+                    default :
+                        alert('default');
                         break;
                 }
 
@@ -206,7 +243,7 @@ class ClassName extends InheritedClass {
     </head>
     <body>
 
-        <!-- 
+        <!--
             Comment block
         -->
 
@@ -235,11 +272,11 @@ class ClassName extends InheritedClass {
             <article>
                 <img src="image.jpg" alt="image description" />
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    <strong>Pellentesque luctus</strong>, elit &amp; fermentum aliquam fermentum, urna 
-                    ipsum venenatis nibh, vitae elementum quam mi non ipsum. Proin euismod tincidunt 
-                    condimentum. Duis convallis sodales congue. <em>Quisque efficitur</em> bibendum 
-                    massa in maximus. Maecenas sodales gravida dignissim. Nunc non ultricies nibh, 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <strong>Pellentesque luctus</strong>, elit &amp; fermentum aliquam fermentum, urna
+                    ipsum venenatis nibh, vitae elementum quam mi non ipsum. Proin euismod tincidunt
+                    condimentum. Duis convallis sodales congue. <em>Quisque efficitur</em> bibendum
+                    massa in maximus. Maecenas sodales gravida dignissim. Nunc non ultricies nibh,
                     at feugiat libero. Integer sed convallis leo. <br />
 
                     <span class="icon"></span><br />
@@ -281,16 +318,6 @@ class ClassName extends InheritedClass {
 
 
 
-
+        <?php echo ""; ?>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-<?php echo ""; ?>

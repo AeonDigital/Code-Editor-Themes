@@ -1,0 +1,134 @@
+{
+    "name": "Aeon Digital Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111",
+        "editor.lineHighlightBackground": "#222222",
+        "editor.selectionBackground": "#333333",
+        "editor.foreground": "#CCCCCC",
+        "editorCursor.foreground": "#AAAAAA",
+        "editorWhitespace.foreground": "#888888",
+        "editorIndentGuide.background": "#333333",
+        "editorIndentGuide.activeBackground": "#333333"
+    },
+    "tokenColors": [
+        {
+            "name": "XML :: DOCTYPE Properties",
+            "scope": [
+                "text.xml meta.tag.sgml.doctype.xml keyword.other.doctype.xml",
+                "text.xml meta.tag.sgml.doctype.xml variable.language.documentroot.xml",
+                "text.xml meta.tag.sgml.doctype.xml"
+            ],
+            "settings": {
+                "foreground": "#826447"
+            }
+        },
+        {
+            "name": "XML :: DOCTYPE Identifiers and DTDs",
+            "scope": [
+                "text.xml meta.tag.sgml.doctype.xml"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "XML :: CDATA Block Open/Close",
+            "scope": [
+                "text.xml punctuation.definition.string.begin.xml",
+                "text.xml punctuation.definition.string.end.xml"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "XML :: CDATA Content",
+            "scope": [
+                "text.xml string.unquoted.cdata.xml"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "XML :: Comment Block Open/Close",
+            "scope": [
+                "text.xml comment.block.xml punctuation.definition.comment.xml"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "XML :: Comment Block Content",
+            "scope": [
+                "text.xml comment.block.xml"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "XML :: Tag Open/Close",
+            "scope": [
+                "punctuation.definition.tag.xml"
+            ],
+            "settings": {
+                "foreground": "#AD7945"
+            }
+        },
+        {
+            "name": "XML :: Tag Name",
+            "scope": [
+                "text.xml meta.tag.preprocessor.xml entity.name.tag.xml",
+                "text.xml meta.tag.xml entity.name.tag.localname.xml",
+                "text.xml meta.tag.no-content.xml",
+                "text.xml meta.tag.xml entity.other.attribute-name.namespace.xml",
+                "text.xml meta.tag.xml entity.name.tag.namespace.xml"
+            ],
+            "settings": {
+                "foreground": "#AD7945"
+            }
+        },
+        {
+            "name": "XML :: Ponctuaction Namespace Separator",
+            "scope": [
+                "text.xml meta.tag.xml entity.other.attribute-name.xml punctuation.separator.namespace.xml"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "XML :: Attribute Name",
+            "scope": [
+                "entity.other.attribute-name.xml",
+                "entity.other.attribute-name.localname.xml"
+            ],
+            "settings": {
+                "foreground": "#C29971"
+            }
+        },
+        {
+            "name": "XML :: Attribute Value",
+            "scope": [
+                "text.xml meta.tag.preprocessor.xml string.quoted.double.xml",
+                "text.xml meta.tag.xml string.quoted.double.xml",
+                "text.xml meta.tag.no-content.xml string.quoted.double.xml"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "XML :: General",
+            "scope": [
+                "text.xml"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,287 @@
+{
+    "name": "Aeon Digital Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111",
+        "editor.lineHighlightBackground": "#222222",
+        "editor.selectionBackground": "#333333",
+        "editor.foreground": "#CCCCCC",
+        "editorCursor.foreground": "#AAAAAA",
+        "editorWhitespace.foreground": "#888888",
+        "editorIndentGuide.background": "#333333",
+        "editorIndentGuide.activeBackground": "#333333"
+    },
+    "tokenColors": [
+        {
+            "name": "CSS :: Comment Block Open/Close",
+            "scope": [
+                "punctuation.definition.comment.begin.css",
+                "punctuation.definition.comment.close.css"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "CSS :: Comment Block Content",
+            "scope": [
+                "comment.block.css"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "CSS :: Rule Name",
+            "scope": [
+                "meta.selector.css"
+            ],
+            "settings": {
+                "foreground": "#BB88BB"
+            }
+        },
+        {
+            "name": "CSS :: Id Hash",
+            "scope": [
+                "entity.other.attribute-name.id.css"
+            ],
+            "settings": {
+                "foreground": "#995599"
+            }
+        },
+        {
+            "name": "CSS :: Id Name",
+            "scope": [
+                "entity.other.attribute-name.id.css"
+            ],
+            "settings": {
+                "foreground": "#995599"
+            }
+        },
+        {
+            "name": "CSS :: Class Dot",
+            "scope": [
+                "entity.other.attribute-name.class.css"
+            ],
+            "settings": {
+                "foreground": "#BB88BB"
+            }
+        },
+        {
+            "name": "CSS :: Class Name",
+            "scope": [
+                "entity.other.attribute-name.class.css"
+            ],
+            "settings": {
+                "foreground": "#BB88BB"
+            }
+        },
+        {
+            "name": "CSS :: Tag Name",
+            "scope": [
+                "entity.name.tag.css"
+            ],
+            "settings": {
+                "foreground": "#BB88BB"
+            }
+        },
+        {
+            "name": "CSS :: Pseudo Element Ponctuaction",
+            "scope": [
+                "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+                "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css"
+            ],
+            "settings": {
+                "foreground": "#DBBCDB"
+            }
+        },
+        {
+            "name": "CSS :: Pseudo Element",
+            "scope": [
+                "meta.selector.css entity.other.attribute-name.pseudo-element.css",
+                "meta.selector.css entity.other.attribute-name.pseudo-class.css"
+            ],
+            "settings": {
+                "foreground": "#DBBCDB"
+            }
+        },
+        {
+            "name": "CSS :: Element Attribute Brackets",
+            "scope": [
+                "meta.attribute-selector.css punctuation.definition.entity.begin.bracket.square.css",
+                "meta.attribute-selector.css punctuation.definition.entity.end.bracket.square.css"
+            ],
+            "settings": {
+                "foreground": "#734D73"
+            }
+        },
+        {
+            "name": "CSS :: Element Attribute Name",
+            "scope": [
+                "meta.attribute-selector.css entity.other.attribute-name.css"
+            ],
+            "settings": {
+                "foreground": "#734D73"
+            }
+        },
+        {
+            "name": "CSS :: Element Attribute Value",
+            "scope": [
+                "meta.attribute-selector.css string.quoted.double.css"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "CSS :: Operators",
+            "scope": [
+                "meta.selector.css keyword.operator.combinator.css"
+            ],
+            "settings": {
+                "foreground": "#995599"
+            }
+        },
+        {
+            "name": "CSS :: Rule Open/Close",
+            "scope": [
+                "punctuation.section.property-list.css"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "CSS :: Property Name",
+            "scope": [
+                "meta.property-name.css",
+                "support.type.property-name.css"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "CSS :: Property Separator",
+            "scope": [
+                "punctuation.separator.key-value.css"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "CSS :: Property Terminator",
+            "scope": [
+                "punctuation.terminator.rule.css"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "CSS :: Value",
+            "scope": [
+                "meta.property-value.css"
+            ],
+            "settings": {
+                "foreground": "#CCCCCC"
+            }
+        },
+        {
+            "name": "CSS :: Value Quotes",
+            "scope": [
+                "punctuation.definition.string.begin.css",
+                "punctuation.definition.string.end.css"
+            ],
+            "settings": {
+                "foreground": "#CCCCCC"
+            }
+        },
+        {
+            "name": "CSS :: Value Quoted",
+            "scope": [
+                "string.quoted.double.css",
+                "string.quoted.single.css"
+            ],
+            "settings": {
+                "foreground": "#CCCCCC",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "CSS :: Value Numeric",
+            "scope": [
+                "constant.numeric.css"
+            ],
+            "settings": {
+                "foreground": "#CCCCCC"
+            }
+        },
+        {
+            "name": "CSS :: Value Numeric Unit",
+            "scope": [
+                "constant.numeric.css keyword.other.unit.css",
+                "keyword.other.unit.ponctuaction.css"
+            ],
+            "settings": {
+                "foreground": "#B89A9A"
+            }
+        },
+        {
+            "name": "CSS :: Value Function",
+            "scope": [
+                "source.css support.function"
+            ],
+            "settings": {
+                "foreground": "#8A6666",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "CSS :: AT-Rule Symbol",
+            "scope": [
+                "punctuation.definition.keyword.css"
+            ],
+            "settings": {
+                "foreground": "#C26565"
+            }
+        },
+        {
+            "name": "CSS :: AT-Rule Control",
+            "scope": [
+                "keyword.control.at-rule.font-face.css",
+                "keyword.control.at-rule.media.css",
+                "keyword.control.at-rule.page.css"
+            ],
+            "settings": {
+                "foreground": "#C26565",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "CSS :: AT-Rule Constants",
+            "scope": [
+                "meta.at-rule.media.header.css support.constant.font-face.css",
+                "meta.at-rule.media.header.css support.constant.media.css",
+                "meta.at-rule.media.header.css support.constant.page.css"
+            ],
+            "settings": {
+                "foreground": "#C26565"
+            }
+        },
+        {
+            "name": "CSS :: AT-Rule Logical Operator",
+            "scope": [
+                "keyword.operator.logical.only.media.css",
+                "keyword.operator.logical.and.media.css",
+                "keyword.operator.logical.or.media.css",
+                "keyword.operator.logical.not.media.css"
+            ],
+            "settings": {
+                "foreground": "#999999",
+                "fontStyle": "italic"
+            }
+        }
+    ]
+}

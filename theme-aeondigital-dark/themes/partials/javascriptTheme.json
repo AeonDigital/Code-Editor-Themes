@@ -1,0 +1,341 @@
+{
+    "name": "Aeon Digital Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111",
+        "editor.lineHighlightBackground": "#222222",
+        "editor.selectionBackground": "#333333",
+        "editor.foreground": "#CCCCCC",
+        "editorCursor.foreground": "#AAAAAA",
+        "editorWhitespace.foreground": "#888888",
+        "editorIndentGuide.background": "#333333",
+        "editorIndentGuide.activeBackground": "#333333"
+    },
+    "tokenColors": [
+        {
+            "name": "JavaScript :: Comment : Line Open",
+            "scope": [
+                "comment.line.double-slash.js punctuation.definition.comment.js"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "JavaScript :: Comment : Line Content",
+            "scope": [
+                "comment.line.double-slash.js"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "JavaScript :: Comment : Block Open/Close",
+            "scope": [
+                "comment.block.js punctuation.definition.comment.js",
+                "comment.block.documentation.js punctuation.definition.comment.js"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "JavaScript :: Comment : Block Content",
+            "scope": [
+                "comment.block.js",
+                "comment.block.documentation.js"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "JavaScript :: Comment : Doc Keyword",
+            "scope": [
+                "punctuation.definition.block.tag.jsdoc",
+                "storage.type.class.jsdoc"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "JavaScript :: Comment : Doc Type Variable",
+            "scope": [
+                "variable.other.jsdoc"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "JavaScript :: Expression Terminator : End instruction [;]; Separator [,]",
+            "scope": [
+                "punctuation.terminator.statement.js",
+                "punctuation.separator.parameter.js"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "JavaScript :: Quotes : Single; Double",
+            "scope": [
+                "source.js string.quoted.single.js punctuation.definition.string.begin.js",
+                "source.js string.quoted.single.js punctuation.definition.string.end.js",
+                "source.js string.quoted.double.js punctuation.definition.string.begin.js",
+                "source.js string.quoted.double.js punctuation.definition.string.end.js"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "JavaScript :: Quoted Strings : Single; Double",
+            "scope": [
+                "source.js string.quoted.single.js",
+                "source.js string.quoted.double.js"
+            ],
+            "settings": {
+                "foreground": "#B88080"
+            }
+        },
+        {
+            "name": "JavaScript :: Quoted Strings : Variable Name",
+            "scope": [
+                "string.quoted.double.php variable.other.php"
+            ],
+            "settings": {
+                "foreground": "#AFB5D1"
+            }
+        },
+        {
+            "name": "JavaScript :: Numeric : Decimal; Hex; Octal",
+            "scope": [
+                "constant.numeric.decimal.js",
+                "constant.numeric.hex.js",
+                "constant.numeric.octal.js"
+            ],
+            "settings": {
+                "foreground": "#947F7F"
+            }
+        },
+        {
+            "name": "JavaScript :: Operators : Assignment; String Concat; Comparison; Increment; Decrement; Aritmetic",
+            "scope": [
+                "keyword.operator.assignment.js",
+                "punctuation.separator.key-value.js",
+                "keyword.operator.arithmetic.js",
+                "keyword.operator.comparison.js",
+                "keyword.operator.increment.js",
+                "keyword.operator.decrement.js",
+                "keyword.operator.ternary.js"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "JavaScript :: Operators : Logical",
+            "scope": [
+                "keyword.operator.logical.js"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "JavaScript :: Constant Name",
+            "scope": [
+                "variable.other.constant.js",
+                "constant.language.undefined.js",
+                "constant.language.null.js",
+                "constant.language.boolean.true.js",
+                "constant.language.boolean.false.js"
+            ],
+            "settings": {
+                "foreground": "#888888",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "JavaScript :: Variable Type",
+            "scope": [
+                "storage.type.js",
+                "storage.type.class.js",
+                "storage.type.property.js"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        },
+        {
+            "name": "JavaScript :: Variable Name",
+            "scope": [
+                "variable.other.readwrite.js",
+                "variable.parameter.js",
+                "variable.other.object.js",
+                "variable.other.property.js",
+                "meta.object-literal.key.js",
+                "variable.other.object.js",
+                "support.variable.property.js"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "JavaScript :: Class : This",
+            "scope": [
+                "variable.language.this.js"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "JavaScript :: Class : Declare; Call Name",
+            "scope": [
+                "support.class.builtin.js"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "JavaScript :: Class : Operator Call Method",
+            "scope": [
+                "punctuation.accessor.js"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "JavaScript :: Keywords : Function",
+            "scope": [
+                "storage.type.function.js",
+                "keyword.operator.expression.delete.js"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        },
+        {
+            "name": "JavaScript :: Function : Name Definition",
+            "scope": [
+                "meta.definition.function.js entity.name.function.js",
+                "meta.definition.variable.js entity.name.function.js",
+                "meta.definition.method.js entity.name.function.js",
+                "entity.name.type.class.js"
+            ],
+            "settings": {
+                "foreground": "#8A6666"
+            }
+        },
+        {
+            "name": "JavaScript :: Function : Bracket Arguments; Assign Return Operator",
+            "scope": [
+                "punctuation.definition.parameters.begin.js",
+                "punctuation.definition.parameters.end.js"
+            ],
+            "settings": {
+                "foreground": "#CCCCCC",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "JavaScript :: Function : Call Name",
+            "scope": [
+                "meta.function-call.js entity.name.function.js"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "JavaScript :: Brackets : Round ()",
+            "scope": [
+                "meta.brace.round.js"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "JavaScript :: Brackets : Square []",
+            "scope": [
+                "meta.brace.square.js"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "JavaScript :: Brackets : Curly {}",
+            "scope": [
+                "punctuation.definition.block.js"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "JavaScript :: Brackets : Angle <>",
+            "scope": [],
+            "settings": {
+                "foreground": "#CCCCCC"
+            }
+        },
+        {
+            "name": "JavaScript :: Keywords : new",
+            "scope": [
+                "keyword.operator.new.js"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        },
+        {
+            "name": "JavaScript :: Keywords : return",
+            "scope": [
+                "keyword.control.flow.js"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        },
+        {
+            "name": "JavaScript :: Keywords : special",
+            "scope": [
+            ],
+            "settings": {
+                "foreground": "#838794"
+            }
+        },
+        {
+            "name": "JavaScript :: Keywords : general structures",
+            "scope": [
+                "keyword.control.loop.js",
+                "keyword.control.switch.js",
+                "keyword.control.conditional.js"
+            ],
+            "settings": {
+                "foreground": "#838794"
+            }
+        },
+        {
+            "name": "JavaScript :: Keywords : try; catch; finally",
+            "scope": [
+                "keyword.control.trycatch.js"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        }
+    ]
+}

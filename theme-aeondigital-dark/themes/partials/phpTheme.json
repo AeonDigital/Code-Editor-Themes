@@ -1,0 +1,454 @@
+{
+    "name": "Aeon Digital Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111",
+        "editor.lineHighlightBackground": "#222222",
+        "editor.selectionBackground": "#333333",
+        "editor.foreground": "#CCCCCC",
+        "editorCursor.foreground": "#AAAAAA",
+        "editorWhitespace.foreground": "#888888",
+        "editorIndentGuide.background": "#333333",
+        "editorIndentGuide.activeBackground": "#333333"
+    },
+    "tokenColors": [
+        {
+            "name": "PHP :: Comment : Line Open",
+            "scope": [
+                "comment.line.double-slash.php punctuation.definition.comment.php"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "PHP :: Comment : Line Content",
+            "scope": [
+                "comment.line.double-slash.php"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "PHP :: Comment : Block Open/Close",
+            "scope": [
+                "comment.block.php punctuation.definition.comment.php",
+                "comment.block.documentation.phpdoc.php punctuation.definition.comment.php"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "PHP :: Comment : Block Content",
+            "scope": [
+                "comment.block.php",
+                "comment.block.documentation.phpdoc.php"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "PHP :: Comment : Doc Keyword",
+            "scope": [
+                "keyword.other.phpdoc.php"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "PHP :: Comment : Doc Type Variable",
+            "scope": [
+                "meta.other.type.phpdoc.php keyword.other.type.php"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "PHP :: CodeBlock : Open/Close",
+            "scope": [
+                "punctuation.section.embedded.begin.php",
+                "punctuation.section.embedded.end.php"
+            ],
+            "settings": {
+                "foreground": "#997BBB"
+            }
+        },
+        {
+            "name": "PHP :: Keywords : Namespace/Package; use; as",
+            "scope": [
+                "keyword.other.namespace.php",
+                "keyword.other.use.php",
+                "keyword.other.use-as.php"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "PHP :: Namespace Definition Name",
+            "scope": [
+                "entity.name.type.namespace.php"
+            ],
+            "settings": {
+                "foreground": "#999999",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "PHP :: Keywords Values : Namespace/Package; alias",
+            "scope": [
+                "support.other.namespace.php",
+                "meta.use.php support.class.php",
+                "entity.other.alias.php"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "PHP :: Namespace Separator",
+            "scope": [
+                "punctuation.separator.inheritance.php"
+            ],
+            "settings": {
+                "foreground": "#888888",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "PHP :: Expression Terminator : End instruction [;]; Separator [,]",
+            "scope": [
+                "punctuation.terminator.expression.php",
+                "punctuation.separator.delimiter.php"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "PHP :: Quoted Strings : Single; Double",
+            "scope": [
+                "string.quoted.single.php",
+                "string.quoted.double.php"
+            ],
+            "settings": {
+                "foreground": "#6771A8"
+            }
+        },
+        {
+            "name": "PHP :: Quoted Strings : Variable Name",
+            "scope": [
+                "string.quoted.double.php variable.other.php"
+            ],
+            "settings": {
+                "foreground": "#AFB5D1"
+            }
+        },
+        {
+            "name": "PHP :: Numeric : Decimal; Hex; Octal",
+            "scope": [
+                "constant.numeric.decimal.php",
+                "constant.numeric.hex.php",
+                "constant.numeric.octal.php"
+            ],
+            "settings": {
+                "foreground": "#6699AA"
+            }
+        },
+        {
+            "name": "PHP :: Operators : Assignment; String Concat; Comparison; Increment; Decrement; Aritmetic",
+            "scope": [
+                "keyword.operator.assignment.php",
+                "keyword.operator.key.php",
+                "keyword.operator.string.php",
+                "keyword.operator.comparison.php",
+                "keyword.operator.increment-decrement.php",
+                "keyword.operator.arithmetic.php",
+                "keyword.operator.type.php"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "PHP :: Operators : Logical",
+            "scope": [
+                "keyword.operator.logical.php"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "PHP :: Storage Modifier : private; protected; public; abstract; final",
+            "scope": [
+                "storage.modifier.php",
+                "storage.modifier.abstract.php",
+                "storage.modifier.final.php"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        },
+        {
+            "name": "PHP :: Constant Name",
+            "scope": [
+                "constant.other.php",
+                "constant.language.php"
+            ],
+            "settings": {
+                "foreground": "#888888",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "PHP :: Variable Type",
+            "scope": [
+                "storage.type.php",
+                "keyword.other.type.php"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        },
+        {
+            "name": "PHP :: Variable Signals : Nullable; Reference",
+            "scope": [
+                "keyword.operator.nullable-type.php",
+                "storage.modifier.reference.php"
+            ],
+            "settings": {
+                "foreground": "#888888",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "PHP :: Variable Name",
+            "scope": [
+                "variable.other.php",
+                "variable.other.class.php",
+                "variable.other.property.php"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "PHP :: Keywords : Class; Interface; Trait; Extends; Implements",
+            "scope": [
+                "storage.type.class.php",
+                "storage.type.interface.php",
+                "storage.type.trait.php",
+                "storage.modifier.extends.php",
+                "storage.modifier.implements.php"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        },
+        {
+            "name": "PHP :: Class Name",
+            "scope": [
+                "entity.name.type.class.php"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "PHP :: Inherited ClassName; Interface Name",
+            "scope": [
+                "entity.other.inherited-class.php"
+            ],
+            "settings": {
+                "foreground": "#7788CC",
+                "fontStyle": "underline italic"
+            }
+        },
+        {
+            "name": "PHP :: Class : This",
+            "scope": [
+                "variable.language.this.php"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "PHP :: Class : Declare; Call Name",
+            "scope": [
+                "support.class.php",
+                "support.class.builtin.php",
+                "support.class.exception.php"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "PHP :: Class : Operator Call Method",
+            "scope": [
+                "keyword.operator.class.php"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "PHP :: Keywords : Function",
+            "scope": [
+                "storage.type.function.php"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        },
+        {
+            "name": "PHP :: Function : Name Definition",
+            "scope": [
+                "entity.name.function.php"
+            ],
+            "settings": {
+                "foreground": "#8A6666"
+            }
+        },
+        {
+            "name": "PHP :: Function : Argument Type",
+            "scope": [
+                "meta.function.parameter.typehinted.php keyword.other.type.php",
+                "meta.function.parameter.typehinted.php support.other.namespace.php",
+                "meta.function.parameter.typehinted.php punctuation.separator.inheritance.php"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "PHP :: Function : Bracket Arguments; Assign Return Operator",
+            "scope": [
+                "punctuation.definition.parameters.begin.bracket.round.php",
+                "punctuation.definition.parameters.end.bracket.round.php",
+                "keyword.operator.return-value.php"
+            ],
+            "settings": {
+                "foreground": "#CCCCCC"
+            }
+        },
+        {
+            "name": "PHP :: Function : Call Name",
+            "scope": [
+                "source.php support.function",
+                "meta.method-call.php entity.name.function.php",
+                "keyword.control.import.include.php"
+            ],
+            "settings": {
+                "foreground": "#8A6666"
+            }
+        },
+        {
+            "name": "PHP :: Brackets : Round ()",
+            "scope": [
+                "punctuation.definition.begin.bracket.round.php",
+                "punctuation.definition.end.bracket.round.php",
+                "punctuation.definition.arguments.begin.bracket.round.php",
+                "punctuation.definition.arguments.end.bracket.round.php",
+                "punctuation.definition.array.begin.bracket.round.php",
+                "punctuation.definition.array.end.bracket.round.php"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "PHP :: Brackets : Square []",
+            "scope": [
+                "punctuation.section.array.begin.php",
+                "punctuation.section.array.end.php"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "PHP :: Brackets : Curly {}",
+            "scope": [
+                "punctuation.definition.end.bracket.curly.php",
+                "punctuation.definition.end.bracket.curly.php"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "PHP :: Brackets : Angle <>",
+            "scope": [],
+            "settings": {
+                "foreground": "#CCCCCC"
+            }
+        },
+        {
+            "name": "PHP :: Keywords : new",
+            "scope": [
+                "keyword.other.new.php"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        },
+        {
+            "name": "PHP :: Keywords : return",
+            "scope": [
+                "keyword.control.return.php"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        },
+        {
+            "name": "PHP :: Keywords : special",
+            "scope": [
+                "keyword.other.clone.php"
+            ],
+            "settings": {
+                "foreground": "#838794"
+            }
+        },
+        {
+            "name": "PHP :: Keywords : general structures",
+            "scope": [
+                "keyword.control.for.php",
+                "keyword.control.foreach.php",
+                "keyword.control.switch.php",
+                "keyword.control.case.php",
+                "keyword.control.default.php",
+                "keyword.control.break.php",
+                "keyword.control.while.php",
+                "keyword.control.do.php",
+                "keyword.control.if.php",
+                "keyword.control.elseif.php",
+                "keyword.control.else.php"
+            ],
+            "settings": {
+                "foreground": "#838794"
+            }
+        },
+        {
+            "name": "PHP :: Keywords : try; catch; finally",
+            "scope": [
+                "keyword.control.exception.php",
+                "keyword.control.exception.catch.php"
+            ],
+            "settings": {
+                "foreground": "#6586A8"
+            }
+        }
+    ]
+}

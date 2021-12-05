@@ -1,0 +1,97 @@
+{
+    "name": "Aeon Digital Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111",
+        "editor.lineHighlightBackground": "#222222",
+        "editor.selectionBackground": "#333333",
+        "editor.foreground": "#CCCCCC",
+        "editorCursor.foreground": "#AAAAAA",
+        "editorWhitespace.foreground": "#888888",
+        "editorIndentGuide.background": "#333333",
+        "editorIndentGuide.activeBackground": "#333333"
+    },
+    "tokenColors": [
+        {
+            "name": "SQL :: Comment",
+            "scope": [
+                "comment.block.c punctuation.definition.comment.sql",
+                "punctuation.definition.comment.sql",
+                "punctuation.definition.comment.sql",
+                "comment.block.c"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "SQL :: Default",
+            "scope": [
+                "source.sql"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "SQL :: Keyword General",
+            "scope": [
+                "keyword.mysql",
+                "keyword.other.sql",
+                "keyword.other.DML.sql"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "SQL :: Keywords",
+            "scope": [
+                "keyword.other.alias.sql",
+                "keyword.other.DDL.create.II.sql",
+                "keyword.other.order.sql",
+                "constant.other.database-name.sql"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "SQL :: Function",
+            "scope": [
+                "support.function.aggregate.sql"
+            ],
+            "settings": {
+                "foreground": "#8A6666"
+            }
+        },
+        {
+            "name": "SQL :: Operator",
+            "scope": [
+                "keyword.operator.comparison.sql"
+            ],
+            "settings": {
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "SQL :: String Quoted Value",
+            "scope": [
+                "string.quoted.single.sql",
+                "string.quoted.double.sql"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "SQL :: Number Value",
+            "scope": [
+                "constant.numeric.sql"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        }
+    ]
+}

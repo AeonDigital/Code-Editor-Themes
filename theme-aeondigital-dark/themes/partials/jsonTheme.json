@@ -1,0 +1,122 @@
+{
+    "name": "Aeon Digital Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111",
+        "editor.lineHighlightBackground": "#222222",
+        "editor.selectionBackground": "#333333",
+        "editor.foreground": "#CCCCCC",
+        "editorCursor.foreground": "#AAAAAA",
+        "editorWhitespace.foreground": "#888888",
+        "editorIndentGuide.background": "#333333",
+        "editorIndentGuide.activeBackground": "#333333"
+    },
+    "tokenColors": [
+        {
+            "name": "JSON :: Comment Block Open/Close",
+            "scope": [
+                "comment.block.json punctuation.definition.comment.json",
+                "comment.block.documentation.json punctuation.definition.comment.json"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "JSON :: Comment Block Content",
+            "scope": [
+                "meta.structure.dictionary.json comment.block.json",
+                "meta.structure.dictionary.json comment.block.documentation.json"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "JSON :: Open/Close",
+            "scope": [
+                "meta.structure.dictionary.json punctuation.definition.dictionary.begin.json",
+                "meta.structure.dictionary.json punctuation.definition.dictionary.end.json"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "JSON :: Quotes",
+            "scope": [
+                "support.type.property-name.json punctuation.support.type.property-name.begin.json",
+                "support.type.property-name.json punctuation.support.type.property-name.end.json",
+                "string.quoted.double.json punctuation.definition.string.begin.json",
+                "string.quoted.double.json punctuation.definition.string.end.json"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "JSON :: Key-Value Separator",
+            "scope": [
+                "punctuation.separator.dictionary.key-value.json"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "JSON :: Comma",
+            "scope": [
+                "punctuation.separator.dictionary.pair.json"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "JSON :: Constant - true/false/null",
+            "scope": [
+                "constant.language.json"
+            ],
+            "settings": {
+                "foreground": "#6F77BB"
+            }
+        },
+        {
+            "name": "JSON :: Property Quoted Name",
+            "scope": [
+                "support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "name": "JSON :: Property Value String",
+            "scope": [
+                "meta.structure.dictionary.value.json string.quoted.double.json"
+            ],
+            "settings": {
+                "foreground": "#B88080"
+            }
+        },
+        {
+            "name": "JSON :: Property Value Numeric",
+            "scope": [
+                "constant.numeric.json"
+            ],
+            "settings": {
+                "foreground": "#947F7F"
+            }
+        },
+        {
+            "name": "JSON :: General",
+            "scope": [
+                "source.json"
+            ],
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        }
+    ]
+}

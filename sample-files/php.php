@@ -2,8 +2,6 @@
 /**
 * @package      Aeon Digital Theme
 * @author       Author Rianna Cantarelli
-*
-* @module       Module Aeon
 */
 namespace Loja\Controllers;
 
@@ -20,9 +18,9 @@ const AEON_CONSTANT = "Aeon Digital";
 /**
 * Class Description
 */
-class ClassName extends InheritedClass {
+abstract class ClassName extends InheritedClass implements iInterface {
 
-    public int $setInteger = 0;
+    public int $setInteger = 5;
 
     /**
     * Method Description
@@ -35,22 +33,27 @@ class ClassName extends InheritedClass {
     public function MethodName(string $one, $two = "two") : bool
     {
         require_once('phpscript.php');
+        include("teste");
         define('__ROOT__', dirname(dirname(__FILE__)));
 
         $routes = array();
         $var_string = "value";
         $var_number = 10;
         $var_bool = true;
-        $var_instance = new AnotherClass();
+        $var_instance = new \Teste\AnotherClass();
+        $dt = new \DateTime();
+
+        $var_cast = (int)"32";
+        $pos = strpos($var_string);
 
         // Assoc Array
-        $routes["Key"] = array(
+        $routes["Key"] = [
             "keyName_1"       => "value_1",
             "keyName_2"       => "value_2",
-        );
+        ];
 
         $this->ExecuteMethod($one, "another arg", 10);
-        $innerHTML = "<body class=\"use-\"" . $var_str . "\"class\">{$var_str}</body>";
+        $innerHTML = "<body class=\"use-\"" . $var_str . "\"class\">${var_str}</body>";
 
         BT::RetrieveHTTPInformation($__DomainConfig["DefaultApplication"]);
 
@@ -74,7 +77,7 @@ class ClassName extends InheritedClass {
             }
         }
         finally {
-            for($i = 0; $i < count($routes); $i++) {
+            for ($i = 0; $i < count($routes); $i++) {
 
             }
         }
@@ -86,6 +89,7 @@ class ClassName extends InheritedClass {
         } else {
             // nha!
         }
+
 
 
         while (1 === 2) {

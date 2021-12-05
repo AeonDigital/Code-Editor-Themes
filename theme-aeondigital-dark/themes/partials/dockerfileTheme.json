@@ -1,0 +1,62 @@
+{
+    "name": "Aeon Digital Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111",
+        "editor.lineHighlightBackground": "#222222",
+        "editor.selectionBackground": "#333333",
+        "editor.foreground": "#CCCCCC",
+        "editorCursor.foreground": "#AAAAAA",
+        "editorWhitespace.foreground": "#888888",
+        "editorIndentGuide.background": "#333333",
+        "editorIndentGuide.activeBackground": "#333333"
+    },
+    "tokenColors": [
+        {
+            "name": "Dockerfile :: Comment Line Hash",
+            "scope": [
+                "punctuation.definition.comment.dockerfile"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "Dockerfile :: Comment Line Content",
+            "scope": [
+                "comment.line.number-sign.dockerfile"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "Dockerfile :: Comment Special Method",
+            "scope": [
+                "keyword.other.special-method.dockerfile"
+            ],
+            "settings": {
+                "foreground": "#5B93B8"
+            }
+        },
+        {
+            "name": "Dockerfile :: Quoted Values",
+            "scope": [
+                "string.quoted.double.dockerfile",
+                "string.quoted.single.dockerfile"
+            ],
+            "settings": {
+                "foreground": "#A9A9A9"
+            }
+        },
+        {
+            "name": "Dockerfile :: Values",
+            "scope": [
+                "source.dockerfile"
+            ],
+            "settings": {
+                "foreground": "#CCCCCC"
+            }
+        }
+    ]
+}
