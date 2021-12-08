@@ -59,7 +59,8 @@
         {
             "name": "SQL :: Function",
             "scope": [
-                "support.function.aggregate.sql"
+                "support.function.aggregate.sql",
+                "support.function.string.sql"
             ],
             "settings": {
                 "foreground": "#8A6666"

@@ -25,6 +25,7 @@ INSERT INTO
   )
 SELECT
   DATE_ADD(imop.NotificacaoRealizadaData, INTERVAL 60 DAY) AS CartorioAverbacaoPrazoMaximoData,
+  FORMAT(imop.EnderecoNumero, 0, 'pt_BR') AS EnderecoNumero,
   0 AS RegistroRealizado,
   mat.Id AS Matricula_Id
 FROM

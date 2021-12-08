@@ -1,0 +1,53 @@
+{
+    "name": "Aeon Digital Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111",
+        "editor.lineHighlightBackground": "#222222",
+        "editor.selectionBackground": "#333333",
+        "editor.foreground": "#CCCCCC",
+        "editorCursor.foreground": "#AAAAAA",
+        "editorWhitespace.foreground": "#888888",
+        "editorIndentGuide.background": "#333333",
+        "editorIndentGuide.activeBackground": "#333333"
+    },
+    "tokenColors": [
+        {
+            "name": "Python :: Comment : Line Open",
+            "scope": [
+                "comment.line.number-sign.python"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "Python :: Comment : Line Content",
+            "scope": [
+                "comment.line.number-sign.python"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "Python :: Comment : Block Open/Close",
+            "scope": [
+                "string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+                "string.quoted.docstring.multi.python punctuation.definition.string.end.python"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "Python :: Comment : Block Content",
+            "scope": [
+                "string.quoted.docstring.multi.python"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        }
+    ]
+}

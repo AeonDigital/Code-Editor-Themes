@@ -3428,7 +3428,8 @@
         {
             "name": "SQL :: Function",
             "scope": [
-                "support.function.aggregate.sql"
+                "support.function.aggregate.sql",
+                "support.function.string.sql"
             ],
             "settings": {
                 "foreground": "#8A6666"
@@ -3965,7 +3966,7 @@
                 "punctuation.definition.string.end.go entity.name.package.go"
             ],
             "settings": {
-                "foreground": "#888888", 
+                "foreground": "#888888",
                 "fontStyle": "bold"
             }
         },
