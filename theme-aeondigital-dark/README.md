@@ -19,10 +19,10 @@ Para esta versão, a seguinte coleção de marcações foram escolhidas para ser
 - JSON
 - SQL
 - XML
-- MARKDONW
-- MAKEFILE
-- DOCKERFILE
-- DOCKERCOMPOSE
+- MarkDown
+- Makefile
+- Dockerfile
+- DockerCompose
 
 
 
