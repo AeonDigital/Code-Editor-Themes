@@ -3006,7 +3006,7 @@
                 "punctuation.section.embedded.end.php"
             ],
             "settings": {
-                "foreground": "#997BBB"
+                "foreground": "#BBBBBB"
             }
         },
         {
@@ -4291,9 +4291,20 @@
             }
         },
         {
+            "name": "Shell :: Variable : Modifier",
+            "scope": [
+                "storage.modifier.shell"
+            ],
+            "settings": {
+                "foreground": "#9E9550"
+            }
+        },
+        {
             "name": "Shell :: Variable : Name",
             "scope": [
-                "variable.other.bracket.shell"
+                "variable.other.bracket.shell",
+                "variable.other.positional.shell",
+                "variable.other.normal.shell"
             ],
             "settings": {
                 "foreground": "#799BB9"
@@ -4330,7 +4341,8 @@
         {
             "name": "Shell :: Functions",
             "scope": [
-                "support.function.builtin.shell"
+                "support.function.builtin.shell",
+                "storage.type.function.shell"
             ],
             "settings": {
                 "foreground": "#799BB9"

@@ -18,7 +18,7 @@
                 "source.shell"
             ],
             "settings": {
-                "foreground": "#999999",
+                "foreground": "#BBBBBB",
                 "fontStyle": "bold"
             }
         },
@@ -28,7 +28,7 @@
                 "punctuation.definition.comment.shebang.shell"
             ],
             "settings": {
-                "foreground": "#1B6A00"
+                "foreground": "#52789B"
             }
         },
         {
@@ -76,7 +76,7 @@
                 "string.interpolated.dollar.shell"
             ],
             "settings": {
-                "foreground": "#888888"
+                "foreground": "#999999"
             }
         },
         {
@@ -85,8 +85,7 @@
                 "punctuation.definition.arguments.shell"
             ],
             "settings": {
-                "foreground": "#999999",
-                "fontStyle": "bold"
+                "foreground": "#999999"
             }
         },
         {
@@ -95,8 +94,7 @@
                 "punctuation.definition.logical-expression.shell"
             ],
             "settings": {
-                "foreground": "#999999",
-                "fontStyle": "bold"
+                "foreground": "#999999"
             }
         },
         {
@@ -105,8 +103,7 @@
                 "punctuation.definition.group.shell"
             ],
             "settings": {
-                "foreground": "#999999",
-                "fontStyle": "bold"
+                "foreground": "#999999"
             }
         },
         {
@@ -115,20 +112,33 @@
                 "punctuation.definition.variable.shell",
                 "variable.other.special.shell",
                 "string.interpolated.dollar.shell punctuation.definition.string.begin.shell",
-                "string.interpolated.dollar.shell punctuation.definition.string.end.shell"
+                "string.interpolated.dollar.shell punctuation.definition.string.end.shell",
+                "string.other.math.shell punctuation.definition.string.begin.shell",
+                "string.other.math.shell punctuation.definition.string.end.shell",
+                "variable.other.positional.shell"
             ],
             "settings": {
-                "foreground": "#259500"
+                "foreground": "#52789B"
+            }
+        },
+        {
+            "name": "Shell :: Variable : Modifier",
+            "scope": [
+                "storage.modifier.shell"
+            ],
+            "settings": {
+                "foreground": "#9E9550"
             }
         },
         {
             "name": "Shell :: Variable : Name",
             "scope": [
                 "variable.other.bracket.shell",
-                "variable.other.positional.shell"
+                "variable.other.positional.shell",
+                "variable.other.normal.shell"
             ],
             "settings": {
-                "foreground": "#9E9550"
+                "foreground": "#799BB9"
             }
         },
         {
@@ -146,7 +156,7 @@
                 "entity.name.function.shell"
             ],
             "settings": {
-                "foreground": "#1B6A00"
+                "foreground": "#476987"
             }
         },
         {
@@ -156,18 +166,17 @@
                 "keyword.operator.list.shell"
             ],
             "settings": {
-                "foreground": "#1B6A00",
-                "fontStyle": "bold"
+                "foreground": "#476987"
             }
         },
         {
             "name": "Shell :: Functions",
             "scope": [
-                "support.function.builtin.shell"
+                "support.function.builtin.shell",
+                "storage.type.function.shell"
             ],
             "settings": {
-                "foreground": "#9E9550",
-                "fontStyle": "bold"
+                "foreground": "#799BB9"
             }
         },
         {
@@ -176,8 +185,7 @@
                 "keyword.operator.logical.shell"
             ],
             "settings": {
-                "foreground": "#999999",
-                "fontStyle": "bold"
+                "foreground": "#999999"
             }
         }
     ]
