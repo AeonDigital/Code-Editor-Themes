@@ -17,8 +17,8 @@
     <system.webServer>
         <rewrite>
             <description>
-                <![CDATA[ 
-                    html/xml cdata section 
+                <![CDATA[
+                    html/xml cdata section
                 ]]>
             </description>
             <description>
@@ -27,7 +27,7 @@
             <rules>
                 <clear />
 
-                <rule name="Tests" patternSyntax="ECMAScript" stopProcessing="true"> 
+                <rule name="Tests" patternSyntax="ECMAScript" stopProcessing="true">
                     <match url="^___SimpleTest/.*" />
                     <conditions logicalGrouping="MatchAny"></conditions>
                     <action type="None" />
