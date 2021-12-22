@@ -23,6 +23,7 @@ Para esta versão, a seguinte coleção de marcações foram escolhidas para ser
 - Makefile
 - Dockerfile
 - DockerCompose
+- INI
 
 
 

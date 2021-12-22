@@ -1,0 +1,61 @@
+{
+    "name": "Aeon Digital Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111",
+        "editor.lineHighlightBackground": "#222222",
+        "editor.selectionBackground": "#333333",
+        "editor.foreground": "#CCCCCC",
+        "editorCursor.foreground": "#AAAAAA",
+        "editorWhitespace.foreground": "#888888",
+        "editorIndentGuide.background": "#333333",
+        "editorIndentGuide.activeBackground": "#333333"
+    },
+    "tokenColors": [
+        {
+            "name": "INI :: Comment Line Hash",
+            "scope": [
+                "punctuation.definition.comment.ini"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "INI :: Comment Line Content",
+            "scope": [
+                "comment.line.number-sign.ini"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "INI :: SOURCE",
+            "scope": [
+                "source.ini"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "INI :: Variable : Name",
+            "scope": [
+                "keyword.other.definition.ini"
+            ],
+            "settings": {
+                "foreground": "#799BB9"
+            }
+        },
+        {
+            "name": "INI :: Variable : Equal",
+            "scope": [
+                "punctuation.separator.key-value.ini"
+            ],
+            "settings": {
+                "foreground": "#52789B"
+            }
+        }
+    ]
+}

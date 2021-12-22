@@ -4356,6 +4356,51 @@
             "settings": {
                 "foreground": "#999999"
             }
+        },
+        {
+            "name": "INI :: Comment Line Hash",
+            "scope": [
+                "punctuation.definition.comment.ini"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "INI :: Comment Line Content",
+            "scope": [
+                "comment.line.number-sign.ini"
+            ],
+            "settings": {
+                "foreground": "#666666"
+            }
+        },
+        {
+            "name": "INI :: SOURCE",
+            "scope": [
+                "source.ini"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            "name": "INI :: Variable : Name",
+            "scope": [
+                "keyword.other.definition.ini"
+            ],
+            "settings": {
+                "foreground": "#799BB9"
+            }
+        },
+        {
+            "name": "INI :: Variable : Equal",
+            "scope": [
+                "punctuation.separator.key-value.ini"
+            ],
+            "settings": {
+                "foreground": "#52789B"
+            }
         }
     ]
 }
