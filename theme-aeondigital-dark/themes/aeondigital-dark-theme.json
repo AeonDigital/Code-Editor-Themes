@@ -3065,7 +3065,9 @@
             "name": "PHP :: Quoted Strings : Single; Double",
             "scope": [
                 "string.quoted.single.php",
-                "string.quoted.double.php"
+                "string.quoted.double.php",
+                "string.regexp.single-quoted.php",
+                "string.regexp.double-quoted.php"
             ],
             "settings": {
                 "foreground": "#6771A8"
