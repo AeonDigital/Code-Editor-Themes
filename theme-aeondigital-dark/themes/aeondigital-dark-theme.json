@@ -9,7 +9,14 @@
         "editorCursor.foreground": "#AAAAAA",
         "editorWhitespace.foreground": "#888888",
         "editorIndentGuide.background": "#333333",
-        "editorIndentGuide.activeBackground": "#333333"
+        "editorIndentGuide.activeBackground": "#333333",
+        "editorBracketHighlight.foreground1": "#FFFFFF00",
+        "editorBracketHighlight.foreground2": "#FFFFFF00",
+        "editorBracketHighlight.foreground3": "#FFFFFF00",
+        "editorBracketHighlight.foreground4": "#FFFFFF00",
+        "editorBracketHighlight.foreground5": "#FFFFFF00",
+        "editorBracketHighlight.foreground6": "#FFFFFF00",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#FFFFFF00"
     },
     "tokenColors": [
         {
@@ -3172,11 +3179,12 @@
             }
         },
         {
-            "name": "PHP :: Keywords : Class; Interface; Trait; Extends; Implements",
+            "name": "PHP :: Keywords : Class; Interface; Trait; Enum; Extends; Implements",
             "scope": [
                 "storage.type.class.php",
                 "storage.type.interface.php",
                 "storage.type.trait.php",
+                "storage.type.enum.php",
                 "storage.modifier.extends.php",
                 "storage.modifier.implements.php"
             ],
@@ -4278,6 +4286,16 @@
             }
         },
         {
+            "name": "Shell :: Brackets : Aritmetic $(( ... ))",
+            "scope": [
+                "punctuation.definition.evaluation.arithmetic.begin.shell",
+                "punctuation.definition.evaluation.arithmetic.end.shell"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
             "name": "Shell :: Variable : Ponctuaction",
             "scope": [
                 "punctuation.definition.variable.shell",
@@ -4334,6 +4352,9 @@
             "name": "Shell :: Keyword",
             "scope": [
                 "keyword.control.shell",
+                "keyword.control.else.shell",
+                "keyword.control.then.shell",
+                "keyword.control.do.shell",
                 "keyword.operator.list.shell"
             ],
             "settings": {
