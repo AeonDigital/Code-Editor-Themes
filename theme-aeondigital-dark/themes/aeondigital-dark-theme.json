@@ -4351,8 +4351,12 @@
         {
             "name": "Shell :: Keyword",
             "scope": [
+                "storage.modifier.local.shell",
+                "storage.modifier.declare.shell",
                 "keyword.control.shell",
+                "keyword.control.elif.shell",
                 "keyword.control.else.shell",
+                "keyword.control.fi.shell",
                 "keyword.control.then.shell",
                 "keyword.control.do.shell",
                 "keyword.operator.list.shell"
