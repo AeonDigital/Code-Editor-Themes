@@ -4360,6 +4360,7 @@
                 "keyword.control.then.shell",
                 "keyword.control.do.shell",
                 "keyword.control.return.shell",
+                "keyword.control.break.shell",
                 "keyword.operator.list.shell"
             ],
             "settings": {
