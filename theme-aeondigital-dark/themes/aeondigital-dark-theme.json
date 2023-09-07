@@ -4354,11 +4354,13 @@
                 "storage.modifier.local.shell",
                 "storage.modifier.declare.shell",
                 "keyword.control.shell",
+                "keyword.control.if.shell",
                 "keyword.control.elif.shell",
                 "keyword.control.else.shell",
                 "keyword.control.fi.shell",
                 "keyword.control.then.shell",
                 "keyword.control.do.shell",
+                "keyword.control.done.shell",
                 "keyword.control.return.shell",
                 "keyword.control.break.shell",
                 "keyword.operator.list.shell"

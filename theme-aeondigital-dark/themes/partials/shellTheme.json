@@ -107,6 +107,16 @@
             }
         },
         {
+            "name": "Shell :: Brackets : Aritmetic $(( ... ))",
+            "scope": [
+                "punctuation.definition.evaluation.arithmetic.begin.shell",
+                "punctuation.definition.evaluation.arithmetic.end.shell"
+            ],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
             "name": "Shell :: Variable : Ponctuaction",
             "scope": [
                 "punctuation.definition.variable.shell",
@@ -162,7 +172,18 @@
         {
             "name": "Shell :: Keyword",
             "scope": [
+                "storage.modifier.local.shell",
+                "storage.modifier.declare.shell",
                 "keyword.control.shell",
+                "keyword.control.if.shell",
+                "keyword.control.elif.shell",
+                "keyword.control.else.shell",
+                "keyword.control.fi.shell",
+                "keyword.control.then.shell",
+                "keyword.control.do.shell",
+                "keyword.control.done.shell",
+                "keyword.control.return.shell",
+                "keyword.control.break.shell",
                 "keyword.operator.list.shell"
             ],
             "settings": {
