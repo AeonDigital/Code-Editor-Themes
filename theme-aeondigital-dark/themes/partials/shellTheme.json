@@ -18,7 +18,7 @@
                 "source.shell"
             ],
             "settings": {
-                "foreground": "#BBBBBB",
+                "foreground": "#999999",
                 "fontStyle": "bold"
             }
         },
@@ -28,16 +28,16 @@
                 "punctuation.definition.comment.shebang.shell"
             ],
             "settings": {
-                "foreground": "#52789B"
+                "foreground": "#3B4252"
             }
         },
         {
             "name": "Shell :: Shebang Line",
             "scope": [
-                "comment.line.number-sign.shebang.shell"
+                "meta.shebang.shell"
             ],
             "settings": {
-                "foreground": "#999999"
+                "foreground": "#727989"
             }
         },
         {
@@ -46,7 +46,7 @@
                 "punctuation.definition.comment.shell"
             ],
             "settings": {
-                "foreground": "#666666"
+                "foreground": "#777777"
             }
         },
         {
@@ -55,7 +55,7 @@
                 "comment.line.number-sign.shell"
             ],
             "settings": {
-                "foreground": "#666666"
+                "foreground": "#777777"
             }
         },
         {
@@ -65,18 +65,19 @@
                 "punctuation.definition.string.end.shell"
             ],
             "settings": {
-                "foreground": "#AAAAAA"
+                "foreground": "#999999"
             }
         },
         {
-            "name": "Shell :: String : Quoted",
+            "name": "Shell :: String : Un|Quoted",
             "scope": [
                 "string.quoted.single.shell",
                 "string.quoted.double.shell",
-                "string.interpolated.dollar.shell"
+                "string.unquoted.shell",
+                "meta.argument.shell"
             ],
             "settings": {
-                "foreground": "#999999"
+                "foreground": "#B0B5BE"
             }
         },
         {
@@ -85,16 +86,18 @@
                 "punctuation.definition.arguments.shell"
             ],
             "settings": {
-                "foreground": "#999999"
+                "foreground": "#777777"
             }
         },
         {
             "name": "Shell :: Brackets : Square []",
             "scope": [
-                "punctuation.definition.logical-expression.shell"
+                "punctuation.definition.logical-expression.shell",
+                "punctuation.definition.bracket.named-array.shell",
+                "punctuation.section.array.shell"
             ],
             "settings": {
-                "foreground": "#999999"
+                "foreground": "#777777"
             }
         },
         {
@@ -103,110 +106,243 @@
                 "punctuation.definition.group.shell"
             ],
             "settings": {
-                "foreground": "#999999"
+                "foreground": "#777777"
             }
         },
         {
-            "name": "Shell :: Brackets : Aritmetic $(( ... ))",
+            "name": "Shell :: Keyword : Control",
             "scope": [
-                "punctuation.definition.evaluation.arithmetic.begin.shell",
-                "punctuation.definition.evaluation.arithmetic.end.shell"
-            ],
-            "settings": {
-                "foreground": "#999999"
-            }
-        },
-        {
-            "name": "Shell :: Variable : Ponctuaction",
-            "scope": [
-                "punctuation.definition.variable.shell",
-                "variable.other.special.shell",
-                "string.interpolated.dollar.shell punctuation.definition.string.begin.shell",
-                "string.interpolated.dollar.shell punctuation.definition.string.end.shell",
-                "string.other.math.shell punctuation.definition.string.begin.shell",
-                "string.other.math.shell punctuation.definition.string.end.shell",
-                "variable.other.positional.shell"
-            ],
-            "settings": {
-                "foreground": "#52789B"
-            }
-        },
-        {
-            "name": "Shell :: Variable : Modifier",
-            "scope": [
-                "storage.modifier.shell"
-            ],
-            "settings": {
-                "foreground": "#799BB9"
-            }
-        },
-        {
-            "name": "Shell :: Variable : Name",
-            "scope": [
-                "variable.other.bracket.shell",
-                "variable.other.positional.shell",
-                "variable.other.normal.shell"
-            ],
-            "settings": {
-                "foreground": "#799BB9"
-            }
-        },
-        {
-            "name": "Shell :: Variable : Interpolated Dolar Shell",
-            "scope": [
-                "string.interpolated.dollar.shell"
-            ],
-            "settings": {
-                "foreground": "#888888"
-            }
-        },
-        {
-            "name": "Shell :: Function Declaration",
-            "scope": [
-                "entity.name.function.shell"
-            ],
-            "settings": {
-                "foreground": "#476987"
-            }
-        },
-        {
-            "name": "Shell :: Keyword",
-            "scope": [
-                "storage.modifier.local.shell",
-                "storage.modifier.declare.shell",
                 "keyword.control.shell",
                 "keyword.control.if.shell",
                 "keyword.control.elif.shell",
                 "keyword.control.else.shell",
                 "keyword.control.fi.shell",
                 "keyword.control.then.shell",
+                "keyword.control.case.shell",
+                "keyword.control.esac.shell",
+                "keyword.control.while.shell",
+                "keyword.control.for.shell",
+                "keyword.control.in.shell",
                 "keyword.control.do.shell",
                 "keyword.control.done.shell",
-                "keyword.control.return.shell",
-                "keyword.control.break.shell",
-                "keyword.operator.list.shell"
+                "keyword.control.return.shell"
             ],
             "settings": {
-                "foreground": "#476987"
+                "foreground": "#567CA0"
             }
         },
         {
-            "name": "Shell :: Functions",
+            "name": "Shell :: Keyword : Return | Break | Continue",
             "scope": [
-                "support.function.builtin.shell",
+                "keyword.control.break.shell",
+                "keyword.control.continue.shell"
+            ],
+            "settings": {
+                "foreground": "#458C96"
+            }
+        },
+        {
+            "name": "Shell :: Function : Keyword",
+            "scope": [
                 "storage.type.function.shell"
             ],
             "settings": {
-                "foreground": "#799BB9"
+                "foreground": "#224B72"
             }
         },
         {
-            "name": "Shell :: Operators",
+            "name": "Shell :: Function : Declaration",
+            "scope": [
+                "entity.name.function.shell"
+            ],
+            "settings": {
+                "foreground": "#365F86"
+            }
+        },
+        {
+            "name": "Shell :: Function | Command : Call",
+            "scope": [
+                "entity.name.function.call.shell",
+                "entity.name.function.call.shell entity.name.command.shell",
+                "meta.function.body.shell entity.name.function.call.shell entity.name.command.shell"
+            ],
+            "settings": {
+                "foreground": "#B49C6C"
+            }
+        },
+        {
+            "name": "Shell :: Function | Command : Call : Dashed Option",
+            "scope": [
+                "constant.other.option.dash.shell",
+                "constant.other.option"
+            ],
+            "settings": {
+                "foreground": "#777777"
+            }
+        },
+        {
+            "name": "Shell :: Builtin",
+            "scope": [
+                "keyword.other.shell",
+                "support.function.builtin.shell"
+            ],
+            "settings": {
+                "foreground": "#458C96"
+            }
+        },
+        {
+            "name": "Shell :: Variable : Modifier",
+            "scope": [
+                "storage.modifier.local.shell",
+                "storage.modifier.readonly.shell",
+                "storage.modifier.export.shell",
+                "storage.modifier.unset.shell",
+                "storage.modifier.declare.shell"
+            ],
+            "settings": {
+                "foreground": "#535B6D"
+            }
+        },
+        {
+            "name": "Shell :: Variable : Option",
+            "scope": [
+                "constant.other.option.shell"
+            ],
+            "settings": {
+                "foreground": "#777777"
+            }
+        },
+        {
+            "name": "Shell :: Variable : Assigment",
+            "scope": [
+                "variable.other.assignment.shell"
+            ],
+            "settings": {
+                "foreground": "#A88873"
+            }
+        },
+        {
+            "name": "Shell :: Variable : Dollar Sign and curly",
+            "scope": [
+                "punctuation.definition.variable.shell",
+                "punctuation.definition.variable.shell variable.other.normal.shell",
+                "punctuation.definition.variable.shell variable.parameter.positional.shell"
+            ],
+            "settings": {
+                "foreground": "#535B6D"
+            }
+        },
+        {
+            "name": "Shell :: Variable : Operator",
+            "scope": [
+                "keyword.operator.expansion.shell"
+            ],
+            "settings": {
+                "foreground": "#777777"
+            }
+        },
+        {
+            "name": "Shell :: Variable : Name",
+            "scope": [
+                "variable.other.normal.shell",
+                "meta.for.in.shell variable.other.for.shell",
+                "variable.parameter.positional.shell"
+            ],
+            "settings": {
+                "foreground": "#969696"
+            }
+        },
+        {
+            "name": "Shell :: Variable : Array : Key",
+            "scope": [
+                "entity.other.attribute-name.bracket.shell",
+                "meta.parameter-expansion",
+                "meta.parameter-expansion string.quoted.double.shell"
+            ],
+            "settings": {
+                "foreground": "#969696"
+            }
+        },
+        {
+            "name": "Shell :: Case : Pattern",
+            "scope": [
+                "meta.case.entry.pattern.shell",
+                "meta.case.entry.pattern.shell string.quoted.double.shell"
+            ],
+            "settings": {
+                "foreground": "#777777"
+            }
+        },
+        {
+            "name": "Shell :: Operators : $?",
+            "scope": [
+                "variable.language.special.shell"
+            ],
+            "settings": {
+                "foreground": "#777777"
+            }
+        },
+        {
+            "name": "Shell :: Operators : Subshell $( ... )",
+            "scope": [
+                "punctuation.definition.subshell.single.shell"
+            ],
+            "settings": {
+                "foreground": "#567CA0"
+            }
+        },
+        {
+            "name": "Shell :: Operators : Aritmetic (( ... ))",
+            "scope": [
+                "punctuation.section.arithmetic.double.shell"
+            ],
+            "settings": {
+                "foreground": "#567CA0"
+            }
+        },
+        {
+            "name": "Shell :: Operators : Logical",
             "scope": [
                 "keyword.operator.logical.shell"
             ],
             "settings": {
-                "foreground": "#999999"
+                "foreground": "#777777"
+            }
+        },
+        {
+            "name": "Shell :: Operators : Redirect sign < >",
+            "scope": [
+                "keyword.operator.redirect.shell"
+            ],
+            "settings": {
+                "foreground": "#777777"
+            }
+        },
+        {
+            "name": "Shell :: Operators : Heredoc sign <<",
+            "scope": [
+                "keyword.operator.heredoc.shell"
+            ],
+            "settings": {
+                "foreground": "#777777"
+            }
+        },
+        {
+            "name": "Shell :: Operators : Heredoc delimiter",
+            "scope": [
+                "punctuation.definition.string.heredoc.delimiter.shell"
+            ],
+            "settings": {
+                "foreground": "#555555"
+            }
+        },
+        {
+            "name": "Shell :: Operators : Herestring <<<",
+            "scope": [
+                "keyword.operator.herestring.shell"
+            ],
+            "settings": {
+                "foreground": "#777777"
             }
         }
     ]

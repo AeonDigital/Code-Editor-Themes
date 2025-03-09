@@ -2,7 +2,7 @@
 
 > Desenvolvido por [Aeon Digital](http://aeondigital.com.br)
 >
-> Otimizado para Visual Studio Code versão 1.62.0.
+> Otimizado para Visual Studio Code versão 1.80.0.
 
 Esquema de cores para o VSCode.
 Criado usando a ferramenta 'yoman'.
@@ -24,6 +24,7 @@ Para esta versão, a seguinte coleção de marcações foram escolhidas para ser
 - Dockerfile
 - DockerCompose
 - INI
+- Shell
 
 
 
@@ -107,4 +108,11 @@ Para esta versão, a seguinte coleção de marcações foram escolhidas para ser
 **DOCKERCOMPOSE**
 
 ![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_dockercompose.png)
+-
+
+
+-
+**Shell**
+
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_shell.png)
 -
