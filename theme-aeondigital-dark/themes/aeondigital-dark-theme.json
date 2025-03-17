@@ -3914,104 +3914,44 @@
             }
         },
         {
-            "name": "Go :: Comment : Line Open   [rosa #E64F92] [roxo #6D49BB] [amarelo #E6DB74] ",
+            "name": "Go :: General Code",
             "scope": [
-                "comment.line.double-slash.go punctuation.definition.comment.go"
+                "source.go"
             ],
             "settings": {
-                "foreground": "#666666"
+                "foreground": "#EEEEEE"
             }
         },
         {
-            "name": "Go :: Comment : Line Content",
+            "name": "Go :: Comment",
             "scope": [
-                "comment.line.double-slash.go"
-            ],
-            "settings": {
-                "foreground": "#666666"
-            }
-        },
-        {
-            "name": "Go :: Comment : Block Open/Close",
-            "scope": [
-                "comment.block.go punctuation.definition.comment.go"
-            ],
-            "settings": {
-                "foreground": "#666666"
-            }
-        },
-        {
-            "name": "Go :: Comment : Block Content",
-            "scope": [
+                "punctuation.definition.comment.go",
+                "comment.line.double-slash.go",
                 "comment.block.go"
             ],
             "settings": {
-                "foreground": "#666666"
+                "foreground": "#555555"
             }
         },
         {
-            "name": "Go :: Keywords : Namespace/Package; use; as",
+            "name": "Go :: Quote",
             "scope": [
-                "keyword.package.go",
-                "keyword.import.go"
-            ],
-            "settings": {
-                "foreground": "#E64F92"
-            }
-        },
-        {
-            "name": "Go :: Package Name; Package Name",
-            "scope": [
-                "entity.name.package.go",
-                "punctuation.definition.string.begin.go entity.name.package.go",
-                "punctuation.definition.string.end.go entity.name.package.go"
-            ],
-            "settings": {
-                "foreground": "#888888",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "Go :: Package Name; Import Name",
-            "scope": [
-                "entity.name.import.go",
-                "punctuation.definition.string.begin.go entity.name.import.go",
-                "punctuation.definition.string.end.go entity.name.import.go"
-            ],
-            "settings": {
-                "foreground": "#E6DB74"
-            }
-        },
-        {
-            "name": "Go :: Package Alias",
-            "scope": [
-                "entity.alias.import.go"
-            ],
-            "settings": {
-                "foreground": "#999999"
-            }
-        },
-        {
-            "name": "Go :: Expression Terminator : End instruction [;]; Separator [,]",
-            "scope": [
-                "punctuation.terminator.go",
-                "punctuation.other.comma.go"
+                "punctuation.definition.string.begin.go",
+                "punctuation.definition.string.end.go"
             ],
             "settings": {
                 "foreground": "#BBBBBB"
             }
         },
         {
-            "name": "Go :: Quoted Strings : Single; Double",
+            "name": "Go :: Quoted Strings : Single; Double; Raw",
             "scope": [
-                "punctuation.definition.string.begin.go",
-                "punctuation.definition.string.end.go",
                 "string.quoted.single.go",
                 "string.quoted.double.go",
                 "string.quoted.raw.go"
             ],
             "settings": {
-                "foreground": "#E6DB74"
+                "foreground": "#DBCF64"
             }
         },
         {
@@ -4019,164 +3959,305 @@
             "scope": [
                 "constant.numeric.decimal.go",
                 "constant.numeric.hexadecimal.go",
-                "keyword.other.unit.hexadecimal.go",
-                "constant.numeric.decimal.go"
+                "keyword.other.unit.hexadecimal.go"
             ],
             "settings": {
                 "foreground": "#9073CE"
             }
         },
         {
-            "name": "Go :: Operators : Assignment; String Concat; Comparison; Increment; Decrement; Aritmetic",
+            "name": "Go :: Punctuaction : Brackets : Round ()",
+            "scope": [
+                "punctuation.definition.begin.bracket.round.go",
+                "punctuation.definition.end.bracket.round.go"
+            ],
+            "settings": {
+                "foreground": "#999999",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Punctuaction : Brackets : Square []",
+            "scope": [
+                "punctuation.definition.begin.bracket.square.go",
+                "punctuation.definition.end.bracket.square.go"
+            ],
+            "settings": {
+                "foreground": "#999999",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Punctuaction : Brackets : Curly {}",
+            "scope": [
+                "punctuation.definition.begin.bracket.curly.go",
+                "punctuation.definition.end.bracket.curly.go"
+            ],
+            "settings": {
+                "foreground": "#999999",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Punctuaction : comma; semicolon; colon; period",
+            "scope": [
+                "punctuation.terminator.go",
+                "punctuation.other.comma.go",
+                "punctuation.other.period.go",
+                "punctuation.other.colon.go"
+            ],
+            "settings": {
+                "foreground": "#999999",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Punctuaction : address pointer",
+            "scope": [
+                "keyword.operator.address.go"
+            ],
+            "settings": {
+                "foreground": "#999999",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Operators : Assignment( := ); String Concat( + ); Increment( ++ ); Decrement( -- ); Aritmetic",
             "scope": [
                 "keyword.operator.assignment.go",
-                "punctuation.other.colon.go",
-                "keyword.operator.comparison.go",
                 "keyword.operator.increment.go",
                 "keyword.operator.decrement.go",
                 "keyword.operator.arithmetic.go"
             ],
             "settings": {
-                "foreground": "#888888"
-            }
-        },
-        {
-            "name": "Go :: Operators : Logical",
-            "scope": [
-                "keyword.operator.logical.go"
-            ],
-            "settings": {
-                "foreground": "#888888"
-            }
-        },
-        {
-            "name": "Go :: Keyword : Constant",
-            "scope": [
-                "keyword.const.go"
-            ],
-            "settings": {
-                "foreground": "#E64F92",
+                "foreground": "#999999",
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "Go :: Constants",
+            "name": "Go :: Operators : Logical( && || ! ); Comparison( < > <= >= == ); Channel( <- )",
             "scope": [
-                "constant.language.go"
+                "keyword.operator.logical.go",
+                "keyword.operator.comparison.go",
+                "keyword.operator.channel.go"
             ],
             "settings": {
-                "foreground": "#888888",
+                "foreground": "#999999",
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "Go :: Variable Type",
+            "name": "Go :: Keywords : Package; Const; Type; Interface; Struct; Func",
             "scope": [
-                "keyword.var.go",
+                "keyword.package.go",
+                "keyword.const.go",
+                "keyword.type.go",
+                "keyword.interface.go",
+                "keyword.struct.go",
+                "keyword.function.go"
+            ],
+            "settings": {
+                "foreground": "#BF598D",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Package : Name",
+            "scope": [
+                "entity.name.type.package.go"
+            ],
+            "settings": {
+                "foreground": "#6586A8",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Const : Name",
+            "scope": [
+                "variable.other.constant.go"
+            ],
+            "settings": {
+                "foreground": "#8B72B0"
+            }
+        },
+        {
+            "name": "Go :: Block[Type] : Struct | Interface : Name",
+            "scope": [
+                "entity.name.type.go"
+            ],
+            "settings": {
+                "foreground": "#8B72B0"
+            }
+        },
+        {
+            "name": "Go :: Block[Type] : Struct : Property Name",
+            "scope": [
+                "variable.other.property.go"
+            ],
+            "settings": {
+                "foreground": "#AAAAAA",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Block[Type] : Struct : Type Name || Function : Type Name || Type Name",
+            "scope": [
                 "storage.type.boolean.go",
                 "storage.type.string.go",
                 "storage.type.numeric.go",
                 "storage.type.rune.go",
                 "storage.type.byte.go",
-                "storage.type.uintptr.go"
+                "storage.type.error.go",
+                "entity.name.type.any.go"
             ],
             "settings": {
-                "foreground": "#6586A8"
+                "foreground": "#7B8ABA",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "Go :: Variable Name",
+            "name": "Go :: Block[Type] : Interface : Function : Definition Name || Function : Call",
             "scope": [
-                "variable.other.assignment.go"
+                "entity.name.function.support.go"
+            ],
+            "settings": {
+                "foreground": "#A39477"
+            }
+        },
+        {
+            "name": "Go :: Block[Type] | Interface : Function : Parameter Name || Block[Func] | : Parameter Name",
+            "scope": [
+                "variable.parameter.go"
             ],
             "settings": {
                 "foreground": "#BBBBBB"
             }
         },
         {
-            "name": "Go :: Keywords : Function; Type; Struct; Interface",
-            "scope": [
-                "keyword.function.go",
-                "keyword.type.go",
-                "keyword.struct.go",
-                "keyword.interface.go"
-            ],
-            "settings": {
-                "foreground": "#E64F92"
-            }
-        },
-        {
-            "name": "Go :: Keywords General",
-            "scope": [
-                "keyword.control.go"
-            ],
-            "settings": {
-                "foreground": "#838794"
-            }
-        },
-        {
-            "name": "Go :: Function : Name Definition",
+            "name": "Go :: Block[Func] : Definition Name",
             "scope": [
                 "entity.name.function.go"
             ],
             "settings": {
-                "foreground": "#888888"
+                "foreground": "#C49A41"
             }
         },
         {
-            "name": "Go :: Function : Call Name",
+            "name": "Go :: Keyword : Import",
             "scope": [
-                "support.function.go"
+                "keyword.control.import.go"
             ],
             "settings": {
-                "foreground": "#888888"
+                "foreground": "#BF598D",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "Go :: Brackets : Round ()",
+            "name": "Go :: Block[Import] : Brackets",
             "scope": [
                 "punctuation.definition.imports.begin.bracket.round.go",
-                "punctuation.definition.imports.end.bracket.round.go",
-                "punctuation.definition.begin.bracket.round.go",
-                "punctuation.definition.end.bracket.round.go"
+                "punctuation.definition.imports.end.bracket.round.go"
             ],
             "settings": {
-                "foreground": "#BBBBBB",
+                "foreground": "#999999",
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "Go :: Brackets : Square []",
+            "name": "Go :: Block[Import] : Paths",
             "scope": [
-                "punctuation.definition.bracket.square.go"
+                "entity.name.import.go"
             ],
             "settings": {
-                "foreground": "#BBBBBB",
+                "foreground": "#DBCF64"
+            }
+        },
+        {
+            "name": "Go :: Block[Import] : Alias",
+            "scope": [
+                "variable.other.import.go"
+            ],
+            "settings": {
+                "foreground": "#7B8ABA",
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "Go :: Brackets : Curly {}",
+            "name": "Go :: Controls : if-else; switch; case; continue; break; defer; go; goto; return",
             "scope": [
-                "punctuation.definition.begin.bracket.curly.go",
-                "punctuation.definition.end.bracket.curly.go"
+                "keyword.control.go",
+                "keyword.channel.go"
             ],
             "settings": {
-                "foreground": "#BBBBBB",
+                "foreground": "#787BB4",
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "Go :: Brackets : Angle <>",
-            "scope": [],
+            "name": "Go :: Keyword : map",
+            "scope": [
+                "keyword.map.go"
+            ],
             "settings": {
-                "foreground": "#CCCCCC"
+                "foreground": "#52659D",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "Go :: General Code",
+            "name": "Go :: Keyword : var",
             "scope": [
-                "source.go"
+                "keyword.var.go"
+            ],
+            "settings": {
+                "foreground": "#52659D",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Keyword : true|false",
+            "scope": [
+                "constant.language.boolean.go"
+            ],
+            "settings": {
+                "foreground": "#DBBC65",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Keyword : nil",
+            "scope": [
+                "constant.language.null.go"
+            ],
+            "settings": {
+                "foreground": "#DBBC65",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Builtin",
+            "scope": [
+                "entity.name.function.support.builtin.go"
+            ],
+            "settings": {
+                "foreground": "#B18F4D",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Label",
+            "scope": [
+                "variable.other.label.go"
+            ],
+            "settings": {
+                "foreground": "#2C7681",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Go :: Variable : Name",
+            "scope": [
+                "variable.other.assignment.go",
+                "variable.other.go"
             ],
             "settings": {
                 "foreground": "#BBBBBB"

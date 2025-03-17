@@ -25,6 +25,15 @@ Para esta versão, a seguinte coleção de marcações foram escolhidas para ser
 - DockerCompose
 - INI
 - Shell
+- Golang
+
+
+## Importante
+Para que o tema seja corretamente aplicado você precisa desabilitar a propriedade de colororação de pares e colchetes. Para isso adicione a seguinte configuração no seu arquivo de configuração `settings.json`
+
+``` settings.json
+"editor.bracketPairColorization.enabled": false
+```
 
 
 
@@ -115,4 +124,11 @@ Para esta versão, a seguinte coleção de marcações foram escolhidas para ser
 **Shell**
 
 ![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_shell.png)
+-
+
+
+-
+**Golang**
+
+![](https://github.com/AeonDigital/Code-Editor-Themes/raw/master/theme-aeondigital-dark/screenshots/screenshot_golang.png)
 -
